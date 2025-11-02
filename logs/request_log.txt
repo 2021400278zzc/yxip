@@ -1,13 +1,13 @@
 === API请求信息 ===
-时间: 2025-11-02 04:23:18 UTC
+时间: 2025-11-02 08:22:01 UTC
 Token: eb5v381wt80tmpiz
 Target: clash
 List: false
 完整URL: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=eb5v381wt80tmpiz&target=clash&list=false
 
 HTTP状态码: 200
-请求耗时: 13.635401秒
-响应长度: 600823字节
+请求耗时: 1.288986秒
+响应长度: 598008字节
 ✅ 请求成功
 文件保存: content/clash_config.txt
-文件大小: 601205 字节
+文件大小: 598389 字节

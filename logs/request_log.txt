@@ -1,12 +1,12 @@
 === API请求信息 ===
-时间: 2025-12-16 04:35:58 UTC
+时间: 2025-12-16 08:31:33 UTC
 Token: um0d1gj44yqo36k1
 Target: clash
 List: false
 完整URL: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=um0d1gj44yqo36k1&target=clash&list=false
 
 HTTP状态码: 200
-请求耗时: 0.409690秒
+请求耗时: 0.351154秒
 响应长度: 596620字节
 ✅ 请求成功
 文件保存: content/clash_config.txt

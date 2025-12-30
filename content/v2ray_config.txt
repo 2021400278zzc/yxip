@@ -1,12 +1,12 @@
 
 
 # ==================== 获取信息 ====================
-# 更新时间: 2025-12-30 08:23:00 UTC
+# 更新时间: 2025-12-30 08:30:01 UTC
 # API地址: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe
 # Token: 75kg8oxf4z16rwnf58mm
 # 目标格式: v2ray
-# 列表模式: true
+# 列表模式: false
 # GitHub Issue: https://github.com/wzdnzd/aggregator/issues/91
-# 请求耗时: 0.443109秒
+# 请求耗时: 0.372059秒
 # 节点说明: 每次随机返回100个节点，每4小时更新
 # ==================================================

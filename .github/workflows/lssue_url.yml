@@ -159,14 +159,13 @@ jobs:
           echo "--- $TARGET 格式 ---" >> logs/request_log.txt
           echo "完整URL: $FULL_URL" >> logs/request_log.txt
           
-          # 发送API请求 - 直接保存到临时文件
+          # 直接保存API响应到最终文件
           FILENAME="content/${TARGET}_config.txt"
-          TEMP_FILE="content/${TARGET}_temp.txt"
           
           echo "🚀 正在请求API并保存..."
           
-          # 使用curl直接下载内容到临时文件，并获取HTTP状态码
-          HTTP_CODE=$(curl -s -w "%{http_code}" -o "$TEMP_FILE" "$FULL_URL")
+          # 使用curl直接下载内容到文件，并获取HTTP状态码
+          HTTP_CODE=$(curl -s -w "%{http_code}" -o "$FILENAME" "$FULL_URL")
           
           echo "📊 HTTP状态码: $HTTP_CODE"
           
@@ -174,31 +173,13 @@ jobs:
           echo "HTTP状态码: $HTTP_CODE" >> logs/request_log.txt
           
           if [ "$HTTP_CODE" -eq 200 ] || [ "$HTTP_CODE" -eq 201 ]; then
-            # 检查临时文件大小
-            CONTENT_SIZE=$(wc -c < "$TEMP_FILE" 2>/dev/null || echo "0")
-            echo "📦 原始内容大小: $CONTENT_SIZE 字节"
-            echo "原始内容大小: $CONTENT_SIZE 字节" >> logs/request_log.txt
+            # 检查文件大小
+            FILE_SIZE=$(wc -c < "$FILENAME" 2>/dev/null || echo "0")
+            echo "📦 文件大小: $FILE_SIZE 字节"
+            echo "文件大小: $FILE_SIZE 字节" >> logs/request_log.txt
             
-            if [ "$CONTENT_SIZE" -gt 0 ]; then
-              # 将临时文件移动为最终文件
-              mv "$TEMP_FILE" "$FILENAME"
-              
-              # 追加元数据信息
-              echo "" >> "$FILENAME"
-              echo "# ==================== 获取信息 ====================" >> "$FILENAME"
-              echo "# 更新时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> "$FILENAME"
-              echo "# API地址: ${{ steps.scrape.outputs.api_url }}" >> "$FILENAME"
-              echo "# Token: ${{ steps.scrape.outputs.token }}" >> "$FILENAME"
-              echo "# 目标格式: $TARGET" >> "$FILENAME"
-              echo "# 列表模式: $LIST" >> "$FILENAME"
-              echo "# GitHub Issue: ${{ env.GITHUB_ISSUE_URL }}" >> "$FILENAME"
-              echo "# 节点说明: 每次随机返回100个节点，每4小时更新" >> "$FILENAME"
-              echo "# ==================================================" >> "$FILENAME"
-              
-              FILE_SIZE=$(wc -c < "$FILENAME")
+            if [ "$FILE_SIZE" -gt 0 ]; then
               echo "✅ $TARGET 格式获取成功，保存到: $FILENAME"
-              echo "📊 最终文件大小: $FILE_SIZE 字节"
-              echo "� 实际内容大小: $CONTENT_SIZE 字节"
               
               ALL_FILES="$ALL_FILES $FILENAME"
               TOTAL_SIZE=$((TOTAL_SIZE + FILE_SIZE))
@@ -207,14 +188,12 @@ jobs:
               # 记录成功信息
               echo "✅ 请求成功" >> logs/request_log.txt
               echo "文件保存: $FILENAME" >> logs/request_log.txt
-              echo "文件大小: $FILE_SIZE 字节" >> logs/request_log.txt
-              echo "内容大小: $CONTENT_SIZE 字节" >> logs/request_log.txt
             else
               echo "⚠️ $TARGET 格式内容为空"
               FAIL_COUNT=$((FAIL_COUNT + 1))
               echo "⚠️ 内容为空" >> logs/request_log.txt
-              # 清理空临时文件
-              rm -f "$TEMP_FILE"
+              # 删除空文件
+              rm -f "$FILENAME"
             fi
           else
             echo "❌ $TARGET 格式请求失败，HTTP状态码: $HTTP_CODE"
@@ -223,8 +202,8 @@ jobs:
             # 记录失败信息
             echo "❌ 请求失败" >> logs/request_log.txt
             
-            # 清理临时文件
-            rm -f "$TEMP_FILE"
+            # 删除失败的文件
+            rm -f "$FILENAME"
           fi
           
           echo "" >> logs/request_log.txt
@@ -279,8 +258,8 @@ jobs:
         - **更新频率**: 每4小时自动更新
         
         ## 📄 文件列表
-        - ✅ `content/clash_config.txt` - Clash 格式配置
-        - ✅ `content/v2ray_config.txt` - V2Ray 格式配置
+        - ✅ `content/clash_config.txt` - Clash 格式配置（纯净，无注释）
+        - ✅ `content/v2ray_config.txt` - V2Ray 格式配置（纯净，无注释）
         
         ## 📖 使用说明
         1. ✅ 每次运行自动获取 Clash 和 V2Ray 两种格式
@@ -289,6 +268,7 @@ jobs:
         4. 🖱️ 支持手动触发更新 (Actions页面)
         5. 📤 push到main分支也会触发更新
         6. 🎲 每次获取随机100个节点，避免拥挤
+        7. 📝 配置文件为纯净API响应，不包含任何额外注释
         
         ## ⚠️ 注意事项
         - 低调使用，禁止大范围传播
@@ -334,6 +314,7 @@ jobs:
           echo "📋 汇总报告: api_summary.md"
           echo "📝 请求日志: logs/request_log.txt"
           echo "🎲 节点说明: 每格式随机返回100个，每4小时更新"
+          echo "📝 已移除所有元数据注释，配置文件为纯净API响应"
         else
           echo "❌ 任务执行失败"
           echo "🔍 请检查日志获取详细错误信息"

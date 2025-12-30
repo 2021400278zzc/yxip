@@ -1,4 +1,4 @@
-name: 智能API内容获取
+name: 智能API内容获取 (Clash + V2Ray)
 
 on:
   push:
@@ -9,19 +9,6 @@ on:
     - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
-      target:
-        description: '目标格式 (clash/v2ray/singbox/surge/loon/quanx/surfboard)'
-        required: false
-        default: 'clash'
-        type: choice
-        options:
-        - clash
-        - v2ray
-        - singbox
-        - surge
-        - loon
-        - quanx
-        - surfboard
       list:
         description: '是否返回列表 (true/false)'
         required: false
@@ -36,12 +23,6 @@ env:
   GITHUB_ISSUE_URL: "https://github.com/wzdnzd/aggregator/issues/91"
   
   # 默认值 (如果无法从Issue中提取则使用以下默认值)
-  # API格式: https://xxx.com/api/v1/subscribe?token=xxx&target=xxx&list=xxx
-  # 参数说明:
-  #   - token: 订阅认证token (从Issue中自动提取)
-  #   - target: 目标格式 (clash/v2ray/singbox/surge/loon/quanx/surfboard)
-  #   - list: 是否返回列表 (true/false 或 1/0, 默认: false)
-  # 注意: 每次获取随机挑选100个节点返回, 节点每4小时更新一次
   DEFAULT_API_BASE_URL: "https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe"
   DEFAULT_TOKEN: "75kg8oxf4z16rwnf58mm"
 
@@ -124,97 +105,141 @@ jobs:
           echo "✅ 成功提取token: $TOKEN"
         fi
         
-        TARGET="${{ github.event.inputs.target || 'clash' }}"
         LIST="${{ github.event.inputs.list || 'false' }}"
         
         # 输出提取的参数
         echo "api_url=$API_URL" >> $GITHUB_OUTPUT
         echo "token=$TOKEN" >> $GITHUB_OUTPUT
-        echo "target=$TARGET" >> $GITHUB_OUTPUT
         echo "list=$LIST" >> $GITHUB_OUTPUT
         
         echo "📋 ========== 最终使用参数 =========="
         echo "🔗 API地址: $API_URL"
         echo "🔑 Token: $TOKEN"
-        echo "🎯 Target: $TARGET"
         echo "📝 List: $LIST"
+        echo "🎯 目标格式: clash, v2ray"
         echo "====================================="
         
         # 保存Issue完整内容供调试
         echo "$ISSUE_BODY" > issue_content.txt
         
-    - name: 构建API链接并获取内容
+    - name: 构建API链接并获取内容 (Clash + V2Ray)
       id: fetch
       run: |
-        FULL_URL="${{ steps.scrape.outputs.api_url }}?token=${{ steps.scrape.outputs.token }}&target=${{ steps.scrape.outputs.target }}&list=${{ steps.scrape.outputs.list }}"
-        echo "🔗 API链接: $FULL_URL"
-        
         mkdir -p content
         mkdir -p logs
         
-        # 记录请求信息
-        echo "=== API请求信息 ===" > logs/request_log.txt
+        # 定义需要获取的格式列表
+        TARGETS=("clash" "v2ray")
+        LIST="${{ steps.scrape.outputs.list }}"
+        
+        # 记录总体请求信息
+        echo "==================== API批量请求信息 ====================" > logs/request_log.txt
         echo "时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> logs/request_log.txt
         echo "API地址: ${{ steps.scrape.outputs.api_url }}" >> logs/request_log.txt
         echo "Token: ${{ steps.scrape.outputs.token }}" >> logs/request_log.txt
-        echo "Target: ${{ steps.scrape.outputs.target }}" >> logs/request_log.txt
-        echo "List: ${{ steps.scrape.outputs.list }}" >> logs/request_log.txt
-        echo "完整URL: $FULL_URL" >> logs/request_log.txt
+        echo "目标格式: ${TARGETS[@]}" >> logs/request_log.txt
+        echo "列表模式: $LIST" >> logs/request_log.txt
+        echo "========================================================" >> logs/request_log.txt
         echo "" >> logs/request_log.txt
         
-        # 发送API请求
-        echo "🚀 正在请求API..."
-        RESPONSE=$(curl -s -w "HTTPSTATUS:%{http_code}\nTIME:%{time_total}" "$FULL_URL")
+        SUCCESS_COUNT=0
+        FAIL_COUNT=0
+        ALL_FILES=""
+        TOTAL_SIZE=0
         
-        # 解析响应
-        HTTP_CODE=$(echo "$RESPONSE" | grep "HTTPSTATUS:" | cut -d: -f2)
-        TIME_TOTAL=$(echo "$RESPONSE" | grep "TIME:" | cut -d: -f2)
-        CONTENT=$(echo "$RESPONSE" | sed '/HTTPSTATUS:/d' | sed '/TIME:/d')
-        
-        echo "📊 HTTP状态码: $HTTP_CODE"
-        echo "⏱️ 请求耗时: ${TIME_TOTAL}秒"
-        
-        # 记录响应信息
-        echo "HTTP状态码: $HTTP_CODE" >> logs/request_log.txt
-        echo "请求耗时: ${TIME_TOTAL}秒" >> logs/request_log.txt
-        echo "响应长度: $(echo "$CONTENT" | wc -c)字节" >> logs/request_log.txt
-        
-        if [ "$HTTP_CODE" -eq 200 ]; then
-          FILENAME="content/${{ steps.scrape.outputs.target }}_config.txt"
-          echo "$CONTENT" > "$FILENAME"
+        # 循环获取每种格式
+        for TARGET in "${TARGETS[@]}"; do
+          echo ""
+          echo "🎯 ========== 正在获取 $TARGET 格式 =========="
           
-          # 追加元数据信息
-          echo "" >> "$FILENAME"
-          echo "# ==================== 获取信息 ====================" >> "$FILENAME"
-          echo "# 更新时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> "$FILENAME"
-          echo "# API地址: ${{ steps.scrape.outputs.api_url }}" >> "$FILENAME"
-          echo "# Token: ${{ steps.scrape.outputs.token }}" >> "$FILENAME"
-          echo "# 目标格式: ${{ steps.scrape.outputs.target }}" >> "$FILENAME"
-          echo "# 列表模式: ${{ steps.scrape.outputs.list }}" >> "$FILENAME"
-          echo "# GitHub Issue: ${{ env.GITHUB_ISSUE_URL }}" >> "$FILENAME"
-          echo "# 请求耗时: ${TIME_TOTAL}秒" >> "$FILENAME"
-          echo "# 节点说明: 每次随机返回100个节点，每4小时更新" >> "$FILENAME"
-          echo "# ==================================================" >> "$FILENAME"
+          FULL_URL="${{ steps.scrape.outputs.api_url }}?token=${{ steps.scrape.outputs.token }}&target=$TARGET&list=$LIST"
+          echo "🔗 API链接: $FULL_URL"
           
-          echo "✅ 内容获取成功，保存到: $FILENAME"
-          echo "📊 文件大小: $(wc -c < "$FILENAME") 字节"
+          # 记录当前格式请求信息
+          echo "--- $TARGET 格式 ---" >> logs/request_log.txt
+          echo "完整URL: $FULL_URL" >> logs/request_log.txt
           
-          echo "filename=$FILENAME" >> $GITHUB_ENV
+          # 发送API请求
+          echo "🚀 正在请求API..."
+          RESPONSE=$(curl -s -w "HTTPSTATUS:%{http_code}\nTIME:%{time_total}" "$FULL_URL")
+          
+          # 解析响应
+          HTTP_CODE=$(echo "$RESPONSE" | grep "HTTPSTATUS:" | cut -d: -f2)
+          TIME_TOTAL=$(echo "$RESPONSE" | grep "TIME:" | cut -d: -f2)
+          CONTENT=$(echo "$RESPONSE" | sed '/HTTPSTATUS:/d' | sed '/TIME:/d')
+          
+          echo "📊 HTTP状态码: $HTTP_CODE"
+          echo "⏱️ 请求耗时: ${TIME_TOTAL}秒"
+          
+          # 记录响应信息
+          echo "HTTP状态码: $HTTP_CODE" >> logs/request_log.txt
+          echo "请求耗时: ${TIME_TOTAL}秒" >> logs/request_log.txt
+          echo "响应长度: $(echo "$CONTENT" | wc -c)字节" >> logs/request_log.txt
+          
+          if [ "$HTTP_CODE" -eq 200 ]; then
+            FILENAME="content/${TARGET}_config.txt"
+            echo "$CONTENT" > "$FILENAME"
+            
+            # 追加元数据信息
+            echo "" >> "$FILENAME"
+            echo "# ==================== 获取信息 ====================" >> "$FILENAME"
+            echo "# 更新时间: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> "$FILENAME"
+            echo "# API地址: ${{ steps.scrape.outputs.api_url }}" >> "$FILENAME"
+            echo "# Token: ${{ steps.scrape.outputs.token }}" >> "$FILENAME"
+            echo "# 目标格式: $TARGET" >> "$FILENAME"
+            echo "# 列表模式: $LIST" >> "$FILENAME"
+            echo "# GitHub Issue: ${{ env.GITHUB_ISSUE_URL }}" >> "$FILENAME"
+            echo "# 请求耗时: ${TIME_TOTAL}秒" >> "$FILENAME"
+            echo "# 节点说明: 每次随机返回100个节点，每4小时更新" >> "$FILENAME"
+            echo "# ==================================================" >> "$FILENAME"
+            
+            FILE_SIZE=$(wc -c < "$FILENAME")
+            echo "✅ $TARGET 格式获取成功，保存到: $FILENAME"
+            echo "📊 文件大小: $FILE_SIZE 字节"
+            
+            ALL_FILES="$ALL_FILES $FILENAME"
+            TOTAL_SIZE=$((TOTAL_SIZE + FILE_SIZE))
+            SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+            
+            # 记录成功信息
+            echo "✅ 请求成功" >> logs/request_log.txt
+            echo "文件保存: $FILENAME" >> logs/request_log.txt
+            echo "文件大小: $FILE_SIZE 字节" >> logs/request_log.txt
+          else
+            echo "❌ $TARGET 格式请求失败，HTTP状态码: $HTTP_CODE"
+            echo "📄 响应内容: $CONTENT"
+            FAIL_COUNT=$((FAIL_COUNT + 1))
+            
+            # 记录失败信息
+            echo "❌ 请求失败" >> logs/request_log.txt
+            echo "错误内容: $CONTENT" >> logs/request_log.txt
+          fi
+          
+          echo "" >> logs/request_log.txt
+          
+          # 短暂延迟避免请求过快
+          sleep 2
+        done
+        
+        # 汇总结果
+        echo ""
+        echo "� ========== 批量获取汇总 =========="
+        echo "✅ 成功: $SUCCESS_COUNT 个格式"
+        echo "❌ 失败: $FAIL_COUNT 个格式"
+        echo "📁 总文件数: $SUCCESS_COUNT"
+        echo "💾 总大小: $TOTAL_SIZE 字节"
+        echo "====================================="
+        
+        # 保存环境变量
+        echo "filenames=$ALL_FILES" >> $GITHUB_ENV
+        echo "total_size=$TOTAL_SIZE" >> $GITHUB_ENV
+        echo "success_count=$SUCCESS_COUNT" >> $GITHUB_ENV
+        echo "fail_count=$FAIL_COUNT" >> $GITHUB_ENV
+        
+        if [ $SUCCESS_COUNT -gt 0 ]; then
           echo "success=true" >> $GITHUB_ENV
-          echo "file_size=$(wc -c < "$FILENAME")" >> $GITHUB_ENV
-          
-          # 记录成功信息
-          echo "✅ 请求成功" >> logs/request_log.txt
-          echo "文件保存: $FILENAME" >> logs/request_log.txt
-          echo "文件大小: $(wc -c < "$FILENAME") 字节" >> logs/request_log.txt
         else
-          echo "❌ API请求失败，HTTP状态码: $HTTP_CODE"
-          echo "📄 响应内容: $CONTENT"
           echo "success=false" >> $GITHUB_ENV
-          
-          # 记录失败信息
-          echo "❌ 请求失败" >> logs/request_log.txt
-          echo "错误内容: $CONTENT" >> logs/request_log.txt
           exit 1
         fi
         
@@ -228,25 +253,25 @@ jobs:
         ## 📋 基本信息
         - **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')
         - **Token**: ${{ steps.scrape.outputs.token }}
-        - **目标格式**: ${{ steps.scrape.outputs.target }}
+        - **获取格式**: Clash + V2Ray
         - **列表模式**: ${{ steps.scrape.outputs.list }}
-        - **文件大小**: ${{ env.file_size }} 字节
+        - **成功数量**: ${{ env.success_count }} 个格式
+        - **失败数量**: ${{ env.fail_count }} 个格式
+        - **总文件大小**: ${{ env.total_size }} 字节
         
         ## 🔗 API信息
         - **基础URL**: ${{ steps.scrape.outputs.api_url }}
         - **GitHub Issue**: ${{ env.GITHUB_ISSUE_URL }}
-        - **生成文件**: ${{ env.filename }}
+        - **生成文件**: ${{ env.filenames }}
         - **节点数量**: 每次随机返回100个节点
         - **更新频率**: 每4小时自动更新
         
-        ## 📄 内容预览
-        \`\`\`
-        $(head -20 "${{ env.filename }}" | sed 's/^//')
-        ...
-        \`\`\`
+        ## 📄 文件列表
+        - ✅ `content/clash_config.txt` - Clash 格式配置
+        - ✅ `content/v2ray_config.txt` - V2Ray 格式配置
         
         ## 📖 使用说明
-        1. ✅ 配置文件已保存到 `${{ env.filename }}`
+        1. ✅ 每次运行自动获取 Clash 和 V2Ray 两种格式
         2. 🔄 API地址和Token会自动从GitHub Issue中获取最新值
         3. ⏰ 每4小时自动更新一次 (与节点更新同步)
         4. 🖱️ 支持手动触发更新 (Actions页面)
@@ -274,7 +299,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "📝 没有内容更改，跳过提交"
         else
-          COMMIT_MSG="🤖 自动更新API内容 (${{ steps.scrape.outputs.target }}) - $(date '+%Y-%m-%d %H:%M:%S')"
+          COMMIT_MSG="🤖 自动更新API内容 (Clash + V2Ray) - $(date '+%Y-%m-%d %H:%M:%S')"
           git commit -m "$COMMIT_MSG"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git push origin HEAD:${{ github.ref_name }}
@@ -287,14 +312,16 @@ jobs:
         echo "==================== 执行结果 ===================="
         if [ "${{ env.success }}" = "true" ]; then
           echo "🎉 任务执行成功！"
-          echo "� API地址: ${{ steps.scrape.outputs.api_url }}"
+          echo "🔗 API地址: ${{ steps.scrape.outputs.api_url }}"
           echo "🔑 使用Token: ${{ steps.scrape.outputs.token }}"
-          echo "🎯 目标格式: ${{ steps.scrape.outputs.target }}"
-          echo "📄 配置文件: ${{ env.filename }}"
-          echo "📊 文件大小: ${{ env.file_size }} 字节"
+          echo "🎯 获取格式: Clash + V2Ray"
+          echo "✅ 成功: ${{ env.success_count }} 个"
+          echo "❌ 失败: ${{ env.fail_count }} 个"
+          echo "� 生成文件: ${{ env.filenames }}"
+          echo "� 总大小: ${{ env.total_size }} 字节"
           echo "📋 汇总报告: api_summary.md"
           echo "📝 请求日志: logs/request_log.txt"
-          echo "🎲 节点说明: 随机返回100个，每4小时更新"
+          echo "🎲 节点说明: 每格式随机返回100个，每4小时更新"
         else
           echo "❌ 任务执行失败"
           echo "🔍 请检查日志获取详细错误信息"

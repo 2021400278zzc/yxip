@@ -17,7 +17,7 @@
 
 为了解决上述问题，趁着周末写了一个管理系统，每次获取节点时随机挑选一部分节点（当前配置：100个）返回。
 
-**在线服务接口地址**：https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=xxx&target=xxx&list=xxx
+**在线服务接口地址**：https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=xxx&target=xxx&list=xxx
 
 **参数列表：**
 |  参数名  |  用途  |  是否必须  |  取值范围  |  默认值  |  当前配置  |  备注  |

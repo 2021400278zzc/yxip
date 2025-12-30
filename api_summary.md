@@ -1,29 +1,38 @@
-# API内容获取汇总报告
+# 🔥 API内容获取汇总报告
 
-## 基本信息
+## 📋 基本信息
 - **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')
 - **Token**: 75kg8oxf4z16rwnf58mm
 - **目标格式**: clash
 - **列表模式**: false
-- **文件大小**: 627732 字节
+- **文件大小**: 626306 字节
 
-## API信息
-- **基础URL**: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe
+## 🔗 API信息
+- **基础URL**: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe
 - **GitHub Issue**: https://github.com/wzdnzd/aggregator/issues/91
 - **生成文件**: content/clash_config.txt
+- **节点数量**: 每次随机返回100个节点
+- **更新频率**: 每4小时自动更新
 
-## 内容预览
+## 📄 内容预览
 \`\`\`
 $(head -20 "content/clash_config.txt" | sed 's/^//')
 ...
 \`\`\`
 
-## 使用说明
-1. 配置文件已保存到 `content/clash_config.txt`
-2. Token会自动从GitHub Issue中获取最新值
-3. 每4小时自动更新一次
-4. 支持手动触发更新
-5. push 到 main 分支也会触发更新
+## 📖 使用说明
+1. ✅ 配置文件已保存到 `content/clash_config.txt`
+2. 🔄 API地址和Token会自动从GitHub Issue中获取最新值
+3. ⏰ 每4小时自动更新一次 (与节点更新同步)
+4. 🖱️ 支持手动触发更新 (Actions页面)
+5. 📤 push到main分支也会触发更新
+6. 🎲 每次获取随机100个节点，避免拥挤
+
+## ⚠️ 注意事项
+- 低调使用，禁止大范围传播
+- Token会在大范围分享时被重置
+- 仅供科研、教育使用
+- 请遵循您所在国家和地区的法律法规
 
 ---
-*由GitHub Actions自动生成*
+*由GitHub Actions自动生成 | 数据来源: [wzdnzd/aggregator#91](https://github.com/wzdnzd/aggregator/issues/91)*

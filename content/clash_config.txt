@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: v2.dabache.top, port: 2096, type: trojan, password: 554f139b-f31f-41c4-99f9-73d60647db26, sni: snippets.kkii.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /Telegram🇨🇳WangCai2, headers: {Host: snippets.kkii.eu.org}}, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 628a0e70-c096-40d6-9d40-f664c5bb5b32, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

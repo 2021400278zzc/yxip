@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: faafb8c9-t6r5s0-t7dy6t-jx5r.hkt.gotochinatown.net}}, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 1b88ad4e-20d1-4b1e-8e20-2793d0619a18, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

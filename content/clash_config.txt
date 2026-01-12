@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: hk2.jueduibupao.top, port: 45742, type: hysteria2, password: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, auth: 0639982f-22d4-44d9-baa8-a4a7e761a5d3, sni: hk2.jueduibupao.top, skip-cert-verify: true, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: freea.glyphara.com, port: 30202, type: vless, uuid: 91b8546b-e4ab-4719-8cb9-df8e78c5df00, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U, short-id: "10fa499e" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

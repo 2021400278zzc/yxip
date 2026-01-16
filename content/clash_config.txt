@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 53494ce0-1a00-4e91-a073-2bd4e4770cfc, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 5dc3f09b-c217-4ceb-ba5f-5f69775c2fa1, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

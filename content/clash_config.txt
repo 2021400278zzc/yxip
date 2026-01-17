@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 5dc3f09b-c217-4ceb-ba5f-5f69775c2fa1, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: 103.236.62.154, port: 33013, type: ss, cipher: 2022-blake3-aes-256-gcm, password: kVoTwq9hXxdit0zDg7Lv089a25lXMeYKIvWl/39U7p4=:SVVNqcXExjIh/aSzjiACWr5g3ZZmxGnKs0sZLylgnGE=, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

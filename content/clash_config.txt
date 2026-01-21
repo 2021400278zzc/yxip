@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: v1.dabache.top, port: 2083, type: vless, uuid: d342d11e-d424-4583-b36e-524ab1f0afa4, tls: true, servername: newwk1.f1w.de5.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: newwk1.f1w.de5.net}}, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: v2.dabache.top, port: 443, type: vless, uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25, tls: true, servername: snip.qqq.hidns.co, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.qqq.hidns.co}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

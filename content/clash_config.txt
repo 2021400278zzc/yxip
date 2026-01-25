@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: us2.anliangjifei.top, port: 52311, type: hysteria2, password: 007f72b0-d0b3-4155-8901-719fe756194a, auth: 007f72b0-d0b3-4155-8901-719fe756194a, sni: apps.apple.com, up: 200, down: 1000, skip-cert-verify: true, ports: 50000-55000, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 89d9c1df-5cf9-4758-9416-a1c1dd4ef552, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

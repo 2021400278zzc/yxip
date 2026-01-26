@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: 152.53.33.43, port: 443, type: vless, uuid: 057b649c-54b1-4f68-86b1-90381637a2cf, tls: false, servername: www.speedtest.net, network: http, http-opts: {method: GET, path: [/], headers: {Host: [www.speedtest.net]}}, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: xiaofeizhu.idsduf.com, port: 12984, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MDhhMTdjZDI0MjI2ZWRlNg==:YmZlNGNhMjYtM2E5ZC00MA==, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

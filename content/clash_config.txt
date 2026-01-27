@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: 162.159.235.154, port: 443, type: vless, uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735, tls: true, servername: snip.ere.de5.net, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: snip.ere.de5.net}}, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

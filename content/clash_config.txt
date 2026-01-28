@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: www.garuda-indonesia.com, port: 2053, type: vless, uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c, tls: true, servername: snippet.fgfw.ye.gs, client-fingerprint: chrome, network: ws, ws-opts: {path: "/danfeng?ed=2560", headers: {Host: snippet.fgfw.ye.gs}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

@@ -1,5 +1,5 @@
 ==================== API批量请求信息 ====================
-时间: 2026-01-29 20:31:33 UTC
+时间: 2026-01-30 02:05:53 UTC
 API地址: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe
 Token: 2i94lkqi1uvd9eeab6
 目标格式: clash v2ray
@@ -16,7 +16,7 @@ HTTP状态码: 200
 --- v2ray 格式 ---
 完整URL: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=2i94lkqi1uvd9eeab6&target=v2ray&list=false
 HTTP状态码: 200
-文件大小: 17788 字节
+文件大小: 42508 字节
 ✅ 请求成功
 文件保存: content/v2ray_config.txt
 

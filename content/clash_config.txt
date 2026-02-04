@@ -6,156 +6,156 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇸🇬 新加坡 066, server: 87e4e7b2-t9zts0-tcj3xn-1o20w.cm4.oshuawei.com, port: 17235, type: http, username: d70a9508-5477-11ef-bf61-f23c913c8d2b, password: d70a9508-5477-11ef-bf61-f23c913c8d2b, tls: true}
-  - {name: 🇮🇩 印度尼西亚 042, server: 54456b45-t9zts0-tedirp-1fli7.id.oshuawei.com, port: 32233, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true}
-  - {name: 🇰🇷 韩国 091, server: 3b2f9691-t9zts0-tfi5fd-1imi4.kr.oshuawei.com, port: 31433, type: http, username: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 952, server: 104.21.70.50, port: 443, type: vless, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, tls: true, servername: 42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io, client-fingerprint: chrome, network: ws, ws-opts: {path: /QMV9N8sI6UlesbbZ1wwDhJ3, headers: {Host: 42214edb-ec81-4091-bfa7-c4ced68ee019.661.qzz.io}}, udp: true}
-  - {name: 🇯🇵 日本 153, server: ea8aa735-t9zts0-tbeopq-1s0a7.cm4.oshuawei.com, port: 27233, type: http, username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, tls: true}
-  - {name: 🇭🇰 香港 219, server: a91d14bd-t9xz40-tdadcv-1hd7v.hkt.gotochinatown.net, port: 80, type: vmess, uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇭🇰 香港 143, server: 3f749274-t9zts0-tbt8ox-1spnr.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇸🇬 新加坡 097, server: 1693b71c-t9zts0-tbnk1n-ueq.sg.oshuawei.com, port: 443, type: http, username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b, tls: true}
-  - {name: 🇲🇾 马来西亚 001, server: 70a7524a-t9zts0-tarwmr-1fqef.my.oshuawei.com, port: 31233, type: http, username: 1239028c-a825-11ed-a0ca-f23c9164ca5d, password: 1239028c-a825-11ed-a0ca-f23c9164ca5d, tls: true}
-  - {name: 🇭🇰 香港家宽 034, server: 96ac9662-t9zts0-tsjk4v-1atkp.hkt.cdnhuawei.com, port: 8443, type: http, username: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9, password: <password>, tls: true}
-  - {name: 🇺🇸 美国 714, server: f6cfa6b4-t9zts0-tlm64c-xm0q.se.oshuawei.com, port: 443, type: http, username: 3437f34e-1b77-11eb-8684-f23c913c8d2b, password: 3437f34e-1b77-11eb-8684-f23c913c8d2b, tls: true}
-  - {name: 🇹🇭 泰国商宽 159, server: e4a7f5a9-t9zts0-tcop2n-tl32.id.oshuawei.com, port: 32232, type: http, username: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, tls: true}
-  - {name: 🇯🇵 日本 056, server: 44e81c30-t9zts0-tc4puo-m0b9.cm4.oshuawei.com, port: 27233, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true}
-  - {name: 🇲🇾 马来西亚 154, server: 1b3006ad-t9zts0-tdcdb7-1k27l.my.oshuawei.com, port: 31233, type: http, username: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b, password: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b, tls: true}
-  - {name: 🇸🇬 新加坡 052, server: b5ff8cc8-t9zts0-titr5n-1hhyy.sg.oshuawei.com, port: 443, type: http, username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, tls: true}
-  - {name: 🇮🇩 印度尼西亚 128, server: 4c5c23c1-t9zts0-tbdyji-ach1.id.oshuawei.com, port: 32233, type: http, username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, tls: true}
-  - {name: 🇭🇰 香港 134, server: 31f4cc4e-t9zts0-tl09la-1q91p.hkt.gotochinatown.net, port: 80, type: vmess, uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇺🇸 美国 185, server: 29a1a8f1-t9zts0-tasors-1tdqt.cu.oshuawei.com, port: 15229, type: http, username: 167db97c-ee01-11ef-b737-f23c91cfbbc9, password: 167db97c-ee01-11ef-b737-f23c91cfbbc9, tls: true}
-  - {name: 🇯🇵 日本 165, server: 3cee09b6-t9zts0-tc2sod-1tizo.cm4.oshuawei.com, port: 27233, type: http, username: bf36227c-0191-11f0-aee1-f23c91cfbbc9, password: bf36227c-0191-11f0-aee1-f23c91cfbbc9, tls: true}
-  - {name: 🇰🇷 韩国 059, server: 50e77a1c-t9zts0-tamumc-1lkbs.kr.oshuawei.com, port: 31433, type: http, username: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d, tls: true}
-  - {name: 🇹🇭 泰国商宽 094, server: 12ab196a-t9zts0-tbt8ox-1spnr.id.oshuawei.com, port: 32232, type: http, username: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, tls: true}
-  - {name: 🇭🇰 香港 039, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: c49491d8-74a1-43e4-b66d-d25ba165d41d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 021, server: 710eb5a5-t9zts0-trftb1-1psmw.fr.oshuawei.com, port: 443, type: http, username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, password: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 026, server: 215e8f23-t9zts0-tbnucr-1thfv.cm4.oshuawei.com, port: 27233, type: http, username: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, tls: true}
-  - {name: 🇮🇩 印度尼西亚 141, server: 4a60b10b-t9zts0-ta42cg-1phla.id.oshuawei.com, port: 32233, type: http, username: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, tls: true}
-  - {name: 🇸🇬 新加坡 084, server: c744f490-t9zts0-ts40sw-14g76.sg.oshuawei.com, port: 443, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
-  - {name: 🇰🇷 韩国 047, server: 450ec88d-t9zts0-tdq4vj-1l0qa.kr.oshuawei.com, port: 31433, type: http, username: 0720c874-35e8-11ef-aa88-f23c913c8d2b, password: 0720c874-35e8-11ef-aa88-f23c913c8d2b, tls: true}
-  - {name: 🇰🇷 韩国 073, server: 2fc98ff3-t9zts0-tairte-1m0fq.kr.oshuawei.com, port: 31433, type: http, username: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, tls: true}
-  - {name: 🇸🇬 新加坡 193, server: 887ee10a-t9zts0-tarsld-1gevg.sg.oshuawei.com, port: 443, type: http, username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b, password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇲🇾 马来西亚 126, server: f9a893dd-t9zts0-tpw4i4-1pckg.my.oshuawei.com, port: 31233, type: http, username: 526a1128-7487-11ee-9bca-f23c913c8d2b, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, tls: true}
-  - {name: 🇬🇧 英国 179, server: 104.18.32.47, port: 443, type: vless, uuid: 979b6822-d65a-400d-89f8-30391903ac20, tls: true, servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg, client-fingerprint: chrome, network: ws, ws-opts: {path: /ws, headers: {Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg}}, udp: true}
-  - {name: 🇫🇷 法国 126, server: 23038e04-t9zts0-tds6bp-1hzyr.fr.oshuawei.com, port: 443, type: http, username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9, password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9, tls: true}
-  - {name: 🇯🇵 日本 179, server: 66f4eb53-t9zts0-thmjbt-1rk9y.cm4.oshuawei.com, port: 27233, type: http, username: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9, password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 740, server: 84292d60-t9zts0-tpw4i4-1pckg.sjc.oshuawei.com, port: 443, type: http, username: 526a1128-7487-11ee-9bca-f23c913c8d2b, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 474, server: 4-nxagt4ce.mix.dexiansheng.com, port: 4445, type: http, username: walless, password: 275728c9-07a2-4f21-807f-4e2189f02929, tls: true}
-  - {name: 🇮🇩 印度尼西亚 052, server: 66187337-t9zts0-tnqudu-1mim2.id.oshuawei.com, port: 32233, type: http, username: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9, password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9, tls: true}
-  - {name: 🇹🇭 泰国商宽 169, server: b2812e7b-t9zts0-tnjsrz-h8vf.id.oshuawei.com, port: 32232, type: http, username: 4fb15f9c-f078-11ed-814b-f23c91369f2d, password: 4fb15f9c-f078-11ed-814b-f23c91369f2d, tls: true}
-  - {name: 🇭🇰 香港 002, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: ce96eb24-8c47-40a6-a5d4-d840950b4caf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾家宽 07, server: freea.glyphara.com, port: 30201, type: vless, uuid: dff15c5c-6942-47f1-a08b-590fbf74d017, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ, short-id: "c1e12817" }, servername: lol.secure.dyn.riotcdn.net, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 751, server: 56d1e939-t9zts0-tkka1f-1k25p.jp.oshuawei.com, port: 443, type: http, username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 519, server: 0710ba5c-t9zts0-tcc9uq-1rnrp.sj.oshuawei.com, port: 443, type: http, username: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 683, server: 28183228-t9zts0-thiwul-1gcq2.sjc.oshuawei.com, port: 443, type: http, username: 759bf004-6137-11ec-bd7c-f23c913c8d2b, password: 759bf004-6137-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇯🇵 日本 194, server: 5513c859-t9zts0-toa9ad-4w8.cm4.oshuawei.com, port: 27233, type: http, username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, tls: true}
-  - {name: 🇸🇬 新加坡 134, server: 0a277f14-t9zts0-tawg6w-1rfon.cm4.oshuawei.com, port: 17235, type: http, username: aed1cc24-351d-11ef-ba52-f23c9164ca5d, password: aed1cc24-351d-11ef-ba52-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 068, server: 515931c2-t9zts0-tkka1f-1k25p.cm4.oshuawei.com, port: 27233, type: http, username: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9, tls: true}
-  - {name: 🇬🇧 英国 038, server: 77d058c0-t9zts0-tdt3k0-jx5r.uk.oshuawei.com, port: 443, type: http, username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, tls: true}
-  - {name: 🇺🇸 美国 295, server: afb6e974-t9zts0-ta6lxc-jjv2.sjc.oshuawei.com, port: 443, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true}
-  - {name: 🇭🇰 香港家宽 103, server: ed3e91c9-t9zts0-tedirp-1fli7.cm4.oshuawei.com, port: 5228, type: http, username: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d, tls: true}
-  - {name: 🇺🇸 美国 392, server: 66090693-t9zts0-ta6lxc-jjv2.cu.oshuawei.com, port: 15229, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true}
-  - {name: 🇯🇵 日本 182, server: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com, port: 27233, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
-  - {name: 🇸🇬 新加坡 154, server: ae568626-t9zts0-tbicd9-1go3q.cm4.oshuawei.com, port: 17235, type: http, username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 051, server: b2437b8d-t9zts0-truoje-1uni.cm4.oshuawei.com, port: 27233, type: http, username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 855, server: ooiuyt.890699.xyz, port: 80, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: ooIuYt.890699.XYz, network: ws, ws-opts: {path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, headers: {Host: OOiuYt.890699.Xyz}}, udp: true}
-  - {name: 🇸🇬 新加坡 335, server: 8.39.125.176, port: 2087, type: vless, uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8, tls: true, servername: yxk.longlivecpc.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: /proxyip=ProxyIP.Oracle.cmliussss.net, headers: {Host: yxk.longlivecpc.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 342, server: e28a1f3a-t9zts0-tee612-2r82.sjc.oshuawei.com, port: 443, type: http, username: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 193, server: 0c6311d5-t9zts0-tdt3k0-jx5r.se.oshuawei.com, port: 443, type: http, username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, tls: true}
-  - {name: 🇮🇩 印度尼西亚 026, server: ebad8f19-t9zts0-tb592v-4lg6.id.oshuawei.com, port: 32233, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 158, server: b773913d-t9zts0-tnsc3a-1f0gu.cm4.oshuawei.com, port: 27233, type: http, username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 543, server: 594d19ad-t9zts0-tb4whp-zn8y.sj.oshuawei.com, port: 443, type: http, username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, tls: true}
-  - {name: 🇮🇩 印度尼西亚 133, server: ab03cf1f-t9zts0-tm3dx0-1r9dt.id.oshuawei.com, port: 32233, type: http, username: de003c72-0157-11ef-86da-f23c91cfbbc9, password: de003c72-0157-11ef-86da-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 352, server: 4f585380-t9zts0-tcmifz-1s3lb.cu.oshuawei.com, port: 15229, type: http, username: fbf91120-50ba-11ef-a203-f23c91cfbbc9, password: fbf91120-50ba-11ef-a203-f23c91cfbbc9, tls: true}
-  - {name: 🇲🇾 马来西亚 122, server: 5f21f7a3-t9zts0-tr9h64-1f1f1.my.oshuawei.com, port: 31233, type: http, username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇬🇧 英国 022, server: b9df7807-t9zts0-tozbjw-1462e.uk.oshuawei.com, port: 443, type: http, username: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9, password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇭🇰 香港 263, server: 486281d0-t9xz40-tarwmr-1fqef.hkt.gotochinatown.net, port: 80, type: vmess, uuid: 1239028c-a825-11ed-a0ca-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
-  - {name: 🇫🇷 法国 110, server: e6b7ca80-t9zts0-te0v28-1mh67.fr.oshuawei.com, port: 443, type: http, username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, tls: true}
-  - {name: 🇲🇾 马来西亚 155, server: 505f5a40-t9zts0-taksay-1tcuf.my.oshuawei.com, port: 31233, type: http, username: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 453, server: 6539d7e1-t9zts0-tb6oza-1mmbp.sjc.oshuawei.com, port: 443, type: http, username: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 434, server: 4-nctuml3k.mix.dexiansheng.com, port: 4435, type: http, username: walless, password: 275728c9-07a2-4f21-807f-4e2189f02929, tls: true}
-  - {name: 🇹🇭 泰国商宽 139, server: 649d4573-t9zts0-tdt3k0-jx5r.id.oshuawei.com, port: 32232, type: http, username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8, tls: true}
-  - {name: 🇰🇷 韩国 185, server: 125.141.26.15, port: 48041, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 🇭🇰 香港家宽 064, server: b622c3d2-t9zts0-tfjz9x-1t5n1.cm4.oshuawei.com, port: 5228, type: http, username: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b, tls: true}
-  - {name: 🇸🇬 新加坡 300, server: 3b8f4264-t9zts0-tar8u7-1fy29.sg.oshuawei.com, port: 443, type: http, username: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, password: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 316, server: f628a636-t9zts0-tlm64c-xm0q.cu.oshuawei.com, port: 15229, type: http, username: 3437f34e-1b77-11eb-8684-f23c913c8d2b, password: 3437f34e-1b77-11eb-8684-f23c913c8d2b, tls: true}
-  - {name: 🇭🇰 香港 275, server: c8611964-t9zts0-tdq4vj-1l0qa.cm4.oshuawei.com, port: 5228, type: http, username: 0720c874-35e8-11ef-aa88-f23c913c8d2b, password: 0720c874-35e8-11ef-aa88-f23c913c8d2b, tls: true}
-  - {name: 🇹🇭 泰国商宽 005, server: ee4ba4b6-t9zts0-tbnbgm-1ryup.id.oshuawei.com, port: 32232, type: http, username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, tls: true}
-  - {name: 🇰🇷 韩国 012, server: f905c033-t9zts0-ta5i1s-1j61y.kr.oshuawei.com, port: 31433, type: http, username: f13f964e-f06c-11ec-a858-f23c91cfbbc9, password: f13f964e-f06c-11ec-a858-f23c91cfbbc9, tls: true}
-  - {name: 🇰🇷 韩国 060, server: 982aa0cb-t9zts0-tbac1z-1j3zm.kr.oshuawei.com, port: 31433, type: http, username: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, password: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 132, server: 10402421-t9zts0-tar8u7-1fy29.sjc.oshuawei.com, port: 443, type: http, username: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, password: 500dd8cc-a21c-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 435, server: cb812e1e-t9zts0-tb224g-1h0r9.sj.oshuawei.com, port: 443, type: http, username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9, password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 349, server: 961ac6f7-t9zts0-tiqsce-t6fv.sjc.oshuawei.com, port: 443, type: http, username: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 513, server: 12873d19-t9zts0-tao3bn-ggww.sj.oshuawei.com, port: 443, type: http, username: bcc58e88-e147-11ec-b286-f23c91cfbbc9, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 321, server: 096037df-t9zts0-tcw58g-1p0be.sj.oshuawei.com, port: 443, type: http, username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 301, server: 48f829d4-t9zts0-tasftf-duku.cu.oshuawei.com, port: 15229, type: http, username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇹🇭 泰国商宽 014, server: 5b15693b-t9zts0-tcr97d-2b2n.id.oshuawei.com, port: 32232, type: http, username: fcd39788-ca23-11ed-86e2-f23c913c8d2b, password: fcd39788-ca23-11ed-86e2-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 672, server: 57e26304-t9zts0-ta42cg-1phla.se.oshuawei.com, port: 443, type: http, username: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d, tls: true}
-  - {name: 🇩🇪 德国 101, server: a8296aed-t9zts0-tbicd9-1go3q.de.oshuawei.com, port: 443, type: http, username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 162, server: 5c7b4fe0-t9zts0-ta2rg6-amya.cm4.oshuawei.com, port: 27233, type: http, username: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, tls: true}
-  - {name: 🇸🇬 新加坡 173, server: 0902a7a6-t9zts0-tc61cs-1tja8.cm4.oshuawei.com, port: 17235, type: http, username: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d, password: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 208, server: 90077729-t9zts0-to8xn3-l4nv.sjc.oshuawei.com, port: 443, type: http, username: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b, tls: true}
-  - {name: 🇻🇳 越南商宽 31, server: 103.186.155.103, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇯🇵 日本 079, server: a9fbf7cf-t9zts0-thv9l4-1jbj0.cm4.oshuawei.com, port: 27233, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
-  - {name: 🇫🇷 法国 156, server: 354973fb-t9zts0-truoje-1uni.fr.oshuawei.com, port: 443, type: http, username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇲🇾 马来西亚 110, server: ec9c8cff-t9zts0-tc67m2-1tjc4.my.oshuawei.com, port: 31233, type: http, username: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, tls: true}
-  - {name: 🇲🇾 马来西亚 099, server: 8a7cf15d-t9zts0-teivih-1rz31.my.oshuawei.com, port: 31233, type: http, username: 7699767c-44ae-11ef-80c7-f23c91cfbbc9, password: 7699767c-44ae-11ef-80c7-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 385, server: 6a9a5485-t9zts0-thzbn1-1gxvd.sj.oshuawei.com, port: 443, type: http, username: 398e0d38-8649-11ef-959c-f23c9164ca5d, password: 398e0d38-8649-11ef-959c-f23c9164ca5d, tls: true}
-  - {name: 🇭🇰 香港家宽 157, server: 8fa6d8d1-t9zts0-tb6oza-1mmbp.cm4.oshuawei.com, port: 5228, type: http, username: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b, tls: true}
-  - {name: 🇫🇷 法国 076, server: 7da87121-t9zts0-tdfzix-fm2v.fr.oshuawei.com, port: 443, type: http, username: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d, tls: true}
-  - {name: 🇩🇪 德国 193, server: 104.26.13.47, port: 443, type: vless, uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8, tls: true, servername: yxk.longlivecpc.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: /proxyip=ProxyIP.Oracle.cmliussss.net, headers: {Host: yxk.longlivecpc.dpdns.org}}, udp: true}
-  - {name: 🇬🇧 英国 150, server: 877dd2b3-t9zts0-tbt8ox-1spnr.uk.oshuawei.com, port: 443, type: http, username: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 689, server: ca8e329e-t9zts0-taxf6m-ieln.sjc.oshuawei.com, port: 443, type: http, username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇫🇷 法国 034, server: 01352a90-t9zts0-ts40sw-14g76.fr.oshuawei.com, port: 443, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
-  - {name: 🇩🇪 德国 213, server: 172.67.75.236, port: 2096, type: vless, uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8, tls: true, servername: yxk.longlivecpc.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: /proxyip=ProxyIP.Oracle.cmliussss.net, headers: {Host: yxk.longlivecpc.dpdns.org}}, udp: true}
-  - {name: 🇸🇬 新加坡 314, server: 198.41.223.5, port: 2083, type: vless, uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8, tls: true, servername: yxk.longlivecpc.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: /proxyip=ProxyIP.Oracle.cmliussss.net, headers: {Host: yxk.longlivecpc.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 075, server: bf0e8e42-t9zts0-ta64ri-1qzi1.cu.oshuawei.com, port: 15229, type: http, username: 8f99107c-f091-11ee-9935-f23c9164ca5d, password: 8f99107c-f091-11ee-9935-f23c9164ca5d, tls: true}
-  - {name: 🇩🇪 德国 157, server: 4-ndfzvq8ve.mix.dexiansheng.com, port: 4438, type: http, username: walless, password: 275728c9-07a2-4f21-807f-4e2189f02929, tls: true}
-  - {name: 🇭🇰 香港家宽 163, server: ea8aa735-t9zts0-tbeopq-1s0a7.cm4.oshuawei.com, port: 5228, type: http, username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9, tls: true}
-  - {name: 🇹🇭 泰国商宽 158, server: 3af1212f-t9zts0-ta2rg6-amya.id.oshuawei.com, port: 32232, type: http, username: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 331, server: 637d3a9d-t9zts0-tac59v-i8ie.sj.oshuawei.com, port: 443, type: http, username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, tls: true}
-  - {name: 🇯🇵 日本 103, server: ca2b8667-t9zts0-tiuovf-v3c2.cm4.oshuawei.com, port: 27233, type: http, username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, tls: true}
-  - {name: 🇸🇬 新加坡 270, server: 7ce5a3a2-t9zts0-titr5n-1hhyy.cm4.oshuawei.com, port: 17235, type: http, username: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本 064, server: 6a479bee-t9zts0-tbfs5p-1bonh.cm4.oshuawei.com, port: 27233, type: http, username: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, password: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 868, server: nnmjku.932.pp.ua, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: nnmjku.932.pp.ua, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: nnmjku.932.pp.ua}}, udp: true}
-  - {name: 🇺🇸 美国 819, server: cd5b03df-t9zts0-th9kx9-1os43.jp.oshuawei.com, port: 443, type: http, username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, tls: true}
-  - {name: 🇭🇰 香港家宽 178, server: f159f9f8-t9zts0-tan99f-1rdqg.cm4.oshuawei.com, port: 5228, type: http, username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 498, server: 9f570ea0-t9zts0-tbac1z-1j3zm.sj.oshuawei.com, port: 443, type: http, username: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, password: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, tls: true}
-  - {name: 🇫🇷 法国 111, server: 0072983f-t9zts0-tebnsl-z93q.fr.oshuawei.com, port: 443, type: http, username: 40639730-e027-11ea-87ad-f23c913c8d2b, password: 40639730-e027-11ea-87ad-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 421, server: 6d4d9e27-t9zts0-tbnbgm-1ryup.sj.oshuawei.com, port: 443, type: http, username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d, tls: true}
-  - {name: 🇯🇵 日本家宽 06, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 4bb5eee5-6f67-4f33-8b37-bb9b10fc340f, sni: douyin.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国商宽 151, server: 3a021502-t9zts0-tqx9ef-1k0yf.id.oshuawei.com, port: 32232, type: http, username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, tls: true}
-  - {name: 🇸🇬 新加坡 182, server: 163e26fd-t9zts0-tazlv3-11p9g.sg.oshuawei.com, port: 443, type: http, username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇻🇳 越南商宽 01, server: 103.186.155.34, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 009, server: 4-n5vf2lpd.mix.dexiansheng.com, port: 4430, type: http, username: walless, password: 275728c9-07a2-4f21-807f-4e2189f02929, tls: true}
-  - {name: 🇺🇸 美国 540, server: 44e0152d-t9zts0-tcp4th-1c4g6.sj.oshuawei.com, port: 443, type: http, username: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, password: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 246, server: 05f7da3d-t9zts0-tb016b-1m7l4.sj.oshuawei.com, port: 443, type: http, username: bd515574-3b10-11ee-ac14-f23c9164ca5d, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, tls: true}
-  - {name: 🇸🇬 新加坡 236, server: 41dc57b8-t9zts0-truoje-1uni.sg.oshuawei.com, port: 443, type: http, username: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b, tls: true}
-  - {name: 🇳🇱 荷兰 06, server: 207.174.30.152, port: 443, type: vmess, uuid: 4dd859b3-c9f6-477e-95f5-283abb3129e5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/content/dam/reinvent/2024/media/ripples/fav-icon.svg], headers: {Host: [reinvent.awsevents.com]}}, udp: true}
-  - {name: 🇮🇩 印度尼西亚 113, server: fe085a7c-t9zts0-tpn98f-1rcxl.id.oshuawei.com, port: 32233, type: http, username: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9, password: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9, tls: true}
-  - {name: 🇰🇷 韩国 003, server: ecdb2d2b-t9zts0-tazlv3-11p9g.kr.oshuawei.com, port: 31433, type: http, username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 831, server: gggbnh7.www890604.dpdns.org, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: gggbnh7.www890604.dpdns.org, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: gggbnh7.www890604.dpdns.org}}, udp: true}
-  - {name: 🇰🇷 韩国 159, server: ec61025d-t9zts0-toa9ad-4w8.kr.oshuawei.com, port: 31433, type: http, username: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5, tls: true}
-  - {name: 🇺🇸 美国 727, server: 9deb50af-t9zts0-thv9l4-1jbj0.se.oshuawei.com, port: 443, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 303, server: 08836340-t9zts0-tqruo0-1pqhp.sjc.oshuawei.com, port: 443, type: http, username: b02327ac-a49a-11ef-a673-f23c913c8d2b, password: b02327ac-a49a-11ef-a673-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 626, server: 72e0b54a-t9zts0-ts40sw-14g76.sj.oshuawei.com, port: 443, type: http, username: 4729b4c8-1790-11eb-8684-f23c913c8d2b, password: 4729b4c8-1790-11eb-8684-f23c913c8d2b, tls: true}
-  - {name: 🇺🇸 美国 070, server: 7aa73512-t9zts0-tcum62-se45.se.oshuawei.com, port: 443, type: http, username: d076280a-0d5f-11f0-8a7b-f23c913c8d2b, password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b, tls: true}
-  - {name: 🇭🇰 香港家宽 024, server: e8a420a4-t9zts0-tarwmr-1fqef.hkt.cdnhuawei.com, port: 8443, type: http, username: 1239028c-a825-11ed-a0ca-f23c9164ca5d, password: <password>, tls: true}
-  - {name: 🇺🇸 美国 473, server: 9ecf8654-t9zts0-tipjoa-1slop.se.oshuawei.com, port: 443, type: http, username: 520b9126-9870-11ef-81b0-f23c9164ca5d, password: 520b9126-9870-11ef-81b0-f23c9164ca5d, tls: true}
-  - {name: 🇺🇸 美国 358, server: 95bcb719-t9zts0-tb5nzx-1mqag.se.oshuawei.com, port: 443, type: http, username: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, password: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, tls: true}
-  - {name: 🇭🇰 香港 075, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: a7b319ff-1222-4f21-8e24-9d8f91244b89, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇺🇸 美国 673, server: 53ad6d77-t9zts0-th9kx9-1os43.sj.oshuawei.com, port: 443, type: http, username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, tls: true}
-  - {name: 🇵🇱 波兰 02, server: 172.64.152.23, port: 80, type: vless, uuid: 5eb9b54d-3c4e-4588-97f7-e53fe3e92c90, tls: false, network: ws, ws-opts: {path: "/?ed", headers: {Host: GLOrioUs-aRriVALHCRtzt96gb.sPORtlANd.cOMPAnY.}}, udp: true}
-  - {name: 🇬🇧 英国 037, server: a5fba2e8-t9zts0-tfpsin-1q3dm.uk.oshuawei.com, port: 443, type: http, username: c1785de0-212f-11ef-92aa-f23c9164ca5d, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, tls: true}
-  - {name: 🇸🇬 新加坡 125, server: 0c7a253d-t9zts0-tbt8ox-1spnr.cm4.oshuawei.com, port: 17235, type: http, username: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 334, server: a4ceed64-t9zts0-tqgocx-1plv4.se.oshuawei.com, port: 443, type: http, username: 28213b50-7ed5-11ee-add6-f23c91369f2d, password: 28213b50-7ed5-11ee-add6-f23c91369f2d, tls: true}
-  - {name: 🇯🇵 日本 123, server: 8ae25de5-t9zts0-tkp3tl-1s09x.cm4.oshuawei.com, port: 27233, type: http, username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, tls: true}
-  - {name: 🇩🇪 德国 053, server: 209987a8-t9zts0-taklwz-12bd.de.oshuawei.com, port: 443, type: http, username: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9, tls: true}
-  - {name: 🇫🇷 法国 069, server: 5294c984-t9zts0-tfeciy-1iddy.fr.oshuawei.com, port: 443, type: http, username: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, tls: true}
-  - {name: 🇺🇸 美国 002, server: 057a568b-ta0g00-taad0h-24c4.los.west.wctype.com, port: 3443, type: http, username: 0b869f32-657e-11ee-a90c-f23c9313b177, password: 0b869f32-657e-11ee-a90c-f23c9313b177, tls: true}
-  - {name: 🇭🇰 香港 032, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b9c08630-5bff-48e1-ad25-73b10092c02d, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国 160, server: a8359001-t9zts0-tbdyji-ach1.fr.oshuawei.com, port: 443, type: http, username: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, password: b9c9905c-1627-11ec-a0fc-f23c913c8d2b, tls: true}
-  - {name: 🇰🇷 韩国家宽 09, server: 218.38.103.150, port: 56223, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇭🇰 香港家宽 178, server: 2.hk.2.cdn-bilibili.cn, port: 443, type: vless, uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU}, servername: www.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 356, server: 3fda8aa2-t9zts0-trftb1-1psmw.se.oshuawei.com, port: 443, type: http, username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, password: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, tls: true}
+  - {name: 🇹🇭 泰国商宽 111, server: c248cfcf-t9zts0-td1l1t-1s824.id.oshuawei.com, port: 32232, type: http, username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, tls: true}
+  - {name: 🇸🇬 新加坡 072, server: 377a8ba5-ta1og0-tac59v-i8ie.sg.oshuawei.com, port: 443, type: http, username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, tls: true}
+  - {name: 🇹🇭 泰国商宽 035, server: 7be4f156-t9zts0-tcw58g-1p0be.id.oshuawei.com, port: 32232, type: http, username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d, tls: true}
+  - {name: 🇩🇪 德国 056, server: cddd33a6-ta1og0-taz53d-1j0y6.de.oshuawei.com, port: 443, type: http, username: 1cce7df2-251c-11ee-9409-f23c9164ca5d, password: 1cce7df2-251c-11ee-9409-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 213, server: 71fbbe03-ta1og0-tfeciy-1iddy.se.oshuawei.com, port: 443, type: http, username: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 580, server: gggnhhy.huangshang.online, port: 80, type: vmess, uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: ggGnHhy.huAnGshAnG.OnLine, network: ws, ws-opts: {path: /GgigazFGDLgFWDItkD5XgXAL, headers: {Host: gggNhHy.huanGshanG.oNliNE}}, udp: true}
+  - {name: 🇺🇸 美国 514, server: c400279b-ta1og0-tubliy-1la7v.jp.oshuawei.com, port: 443, type: http, username: 460749c2-bcef-11ee-89fc-f23c913c8d2b, password: 460749c2-bcef-11ee-89fc-f23c913c8d2b, tls: true}
+  - {name: 🇬🇧 英国 048, server: a9382700-t9zts0-tfeciy-1iddy.uk.oshuawei.com, port: 443, type: http, username: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 145, server: 7a8351fe-ta1og0-tcr22d-1rsuw.se.oshuawei.com, port: 443, type: http, username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港 065, server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl, port: 26001, type: trojan, password: bacb661b-0054-4c20-923c-f4abe8bb7eb3, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 169, server: 675392f4-t9zts0-tb4whp-zn8y.sjc.oshuawei.com, port: 443, type: http, username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, tls: true}
+  - {name: 🇯🇵 日本 015, server: 586c6b32-ta1og0-tmynyz-1s3mx.cm4.oshuawei.com, port: 27233, type: http, username: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, tls: true}
+  - {name: 🇸🇬 新加坡 157, server: freea.glyphara.com, port: 30402, type: vless, uuid: f642b5d1-bfbf-42e4-a5e4-d873aac4bed6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew, short-id: "f5f6e6f4" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇩🇪 德国 028, server: 8611ce8e-t9zts0-ta6lxc-jjv2.de.oshuawei.com, port: 443, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true}
+  - {name: 🇭🇰 香港家宽 035, server: f87200d3-t9zts0-tmynyz-1s3mx.cm4.oshuawei.com, port: 5228, type: http, username: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, tls: true}
+  - {name: 🇮🇩 印度尼西亚 046, server: 325326a3-ta1og0-tbc0ig-1ssud.id.oshuawei.com, port: 32233, type: http, username: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9, tls: true}
+  - {name: 🇮🇩 印度尼西亚 059, server: 993acfe8-ta1og0-thntyd-1f596.id.oshuawei.com, port: 32233, type: http, username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, tls: true}
+  - {name: 🇭🇰 香港家宽 140, server: bf07da8c-ta1og0-taksay-1tcuf.cm4.oshuawei.com, port: 5228, type: http, username: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, tls: true}
+  - {name: 🇰🇷 韩国家宽 06, server: 125.141.26.15, port: 48041, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇭🇰 香港家宽 033, server: 1354d3ce-ta1og0-tac59v-i8ie.hkt.cdnhuawei.com, port: 8443, type: http, username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9, password: <password>, tls: true}
+  - {name: 🇸🇬 新加坡 129, server: 2aec32d3-t9zts0-tnfe2z-1s4hc.cm4.oshuawei.com, port: 17235, type: http, username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9, password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9, tls: true}
+  - {name: 🇭🇰 香港家宽 069, server: bf910ed8-ta1og0-tnkuks-wujn.hkt.cdnhuawei.com, port: 8443, type: http, username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b, password: <password>, tls: true}
+  - {name: 🇭🇰 香港家宽 099, server: c245bcd5-ta1og0-td1l1t-1s824.cm4.oshuawei.com, port: 5228, type: http, username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, tls: true}
+  - {name: 🇹🇭 泰国商宽 112, server: abdc8c7d-t9zts0-thntyd-1f596.id.oshuawei.com, port: 32232, type: http, username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, password: e3975a05-b89e-11ec-a50d-f23c91cfbbc9, tls: true}
+  - {name: 🇸🇬 新加坡 012, server: e2319808-ta1og0-tiaexf-ufc0.sg.oshuawei.com, port: 443, type: http, username: 22308988-8548-11ea-a22e-f23c91cfbbc9, password: 22308988-8548-11ea-a22e-f23c91cfbbc9, tls: true}
+  - {name: 🇹🇭 泰国商宽 059, server: c36b39ca-ta1og0-tc4puo-m0b9.id.oshuawei.com, port: 32232, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 463, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 0028df31-a60e-4926-8849-8b5ea2f96c7c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 170, server: 4f8fb0d5-t9zts0-ta5i1s-1j61y.sg.oshuawei.com, port: 443, type: http, username: f13f964e-f06c-11ec-a858-f23c91cfbbc9, password: f13f964e-f06c-11ec-a858-f23c91cfbbc9, tls: true}
+  - {name: 🇮🇩 印度尼西亚 011, server: ab03cf1f-t9zts0-tm3dx0-1r9dt.id.oshuawei.com, port: 32233, type: http, username: de003c72-0157-11ef-86da-f23c91cfbbc9, password: de003c72-0157-11ef-86da-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 040, server: 02de7861-ta1og0-thv9l4-1jbj0.sjc.oshuawei.com, port: 443, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
+  - {name: 🇬🇧 英国 078, server: 3fac6394-t9zts0-tc4puo-m0b9.uk.oshuawei.com, port: 443, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印度尼西亚 060, server: e1e3b887-ta1og0-tbck4p-mv7m.id.oshuawei.com, port: 32233, type: http, username: 94d40708-8273-11ea-8fc9-f23c913c8d2b, password: 94d40708-8273-11ea-8fc9-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港家宽 014, server: 2d75ce09-t9zts0-tbpkla-1otc2.cm4.oshuawei.com, port: 5228, type: http, username: 0114339c-488d-11ee-8792-f23c9164ca5d, password: 0114339c-488d-11ee-8792-f23c9164ca5d, tls: true}
+  - {name: 🇭🇰 香港 075, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 6a8c843d-d692-44cd-894e-e9114d3a006e, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇭🇰 香港家宽 126, server: 42d017a4-ta1og0-teu3io-1t4wg.cm4.oshuawei.com, port: 5228, type: http, username: 1b13e20c-e778-11ef-907f-f23c913c8d2b, password: 1b13e20c-e778-11ef-907f-f23c913c8d2b, tls: true}
+  - {name: 🇰🇷 韩国 019, server: a32c8680-ta1og0-ta6lxc-jjv2.kr.oshuawei.com, port: 31433, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true}
+  - {name: 🇸🇬 新加坡 168, server: 44e81c30-t9zts0-tc4puo-m0b9.cm4.oshuawei.com, port: 17235, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇫🇷 法国 057, server: 70a78efd-ta1og0-tgplbc-hkb8.fr.oshuawei.com, port: 443, type: http, username: 21a70fd2-c69c-11eb-8673-f23c9164ca5d, password: 21a70fd2-c69c-11eb-8673-f23c9164ca5d, tls: true}
+  - {name: 🇹🇭 泰国商宽 003, server: b40ea846-t9zts0-tlpfci-1jdha.id.oshuawei.com, port: 32232, type: http, username: de629d50-1711-11ed-bd7c-f23c913c8d2b, password: de629d50-1711-11ed-bd7c-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 654, server: 159.223.205.136, port: 42356, type: vless, uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw}, servername: dash.cloudflare.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 127, server: 6860a9b7-ta1og0-tbck4p-mv7m.sjc.oshuawei.com, port: 443, type: http, username: 94d40708-8273-11ea-8fc9-f23c913c8d2b, password: 94d40708-8273-11ea-8fc9-f23c913c8d2b, tls: true}
+  - {name: 🇩🇪 德国 133, server: a45529a9-t9zts0-tlm64c-xm0q.de.oshuawei.com, port: 443, type: http, username: 3437f34e-1b77-11eb-8684-f23c913c8d2b, password: 3437f34e-1b77-11eb-8684-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港 093, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 35d730a7-b0d3-4aea-b44a-b7d5072a91fd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 英国 088, server: 048557e5-ta1og0-tdq4vj-1l0qa.uk.oshuawei.com, port: 443, type: http, username: 0720c874-35e8-11ef-aa88-f23c913c8d2b, password: 0720c874-35e8-11ef-aa88-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 002, server: 7e2383c6-ta1og0-tkhmfr-1jm8i.sjc.oshuawei.com, port: 443, type: http, username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, tls: true}
+  - {name: 🇯🇵 日本 083, server: 19149ce5-t9zts0-trhks8-1c9em.cm4.oshuawei.com, port: 27233, type: http, username: 336501b6-51d2-11ee-a993-f23c9164ca5d, password: 336501b6-51d2-11ee-a993-f23c9164ca5d, tls: true}
+  - {name: 🇯🇵 日本 131, server: fefc9dc9-t9zts0-tubliy-1la7v.cm4.oshuawei.com, port: 27233, type: http, username: 460749c2-bcef-11ee-89fc-f23c913c8d2b, password: 460749c2-bcef-11ee-89fc-f23c913c8d2b, tls: true}
+  - {name: 🇰🇷 韩国 094, server: a90e8af7-ta1og0-tm3dx0-1r9dt.kr.oshuawei.com, port: 31433, type: http, username: de003c72-0157-11ef-86da-f23c91cfbbc9, password: de003c72-0157-11ef-86da-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 135, server: 9d6bcc33-ta1og0-tphxte-1h5u7.sj.oshuawei.com, port: 443, type: http, username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, tls: true}
+  - {name: 🇸🇬 新加坡 128, server: 4ede4fb0-ta1og0-taz53d-1j0y6.sg.oshuawei.com, port: 443, type: http, username: 1cce7df2-251c-11ee-9409-f23c9164ca5d, password: 1cce7df2-251c-11ee-9409-f23c9164ca5d, tls: true}
+  - {name: 🇮🇩 印度尼西亚 014, server: f9d784fe-t9zts0-th9kx9-1os43.id.oshuawei.com, port: 32233, type: http, username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, tls: true}
+  - {name: 🇮🇩 印度尼西亚 092, server: 83a69ad4-ta1og0-tnqudu-1mim2.id.oshuawei.com, port: 32233, type: http, username: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9, password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 645, server: 05410722-ta1og0-tbpu76-1thmd.sjc.oshuawei.com, port: 443, type: http, username: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, tls: true}
+  - {name: 🇲🇾 马来西亚 049, server: 2e2bc84f-ta1og0-tc67m2-1tjc4.my.oshuawei.com, port: 31233, type: http, username: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, tls: true}
+  - {name: 🇬🇧 英国 025, server: 3aec7851-t9zts0-tgr32b-wj6v.uk.oshuawei.com, port: 443, type: http, username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇫🇷 法国 037, server: e2a1dac7-t9zts0-tb016b-1m7l4.fr.oshuawei.com, port: 443, type: http, username: bd515574-3b10-11ee-ac14-f23c9164ca5d, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, tls: true}
+  - {name: 🇭🇰 香港家宽 131, server: 7b967a77-ta1og0-tgzvop-hns7.cm4.oshuawei.com, port: 5228, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇲🇾 马来西亚 086, server: 3b088940-ta1og0-tkp3tl-1s09x.my.oshuawei.com, port: 31233, type: http, username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d, tls: true}
+  - {name: 🇩🇪 德国 060, server: d27be0ef-t9zts0-tb5rbt-1kcpe.de.oshuawei.com, port: 443, type: http, username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇹🇭 泰国商宽 014, server: 22243b8c-t9zts0-trftb1-1psmw.id.oshuawei.com, port: 32232, type: http, username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, password: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 456, server: 2799ac18-t9zts0-tbpu76-1thmd.sjc.oshuawei.com, port: 443, type: http, username: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, tls: true}
+  - {name: 🇸🇬 新加坡 039, server: 50ae0d0e-ta1og0-tmynyz-1s3mx.sg.oshuawei.com, port: 443, type: http, username: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9, tls: true}
+  - {name: 🇬🇧 英国 133, server: 0ec541b2-t9zts0-ta2rg6-amya.uk.oshuawei.com, port: 443, type: http, username: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, tls: true}
+  - {name: 🇸🇬 新加坡 064, server: e557d0af-ta1og0-te0v28-1mh67.sg.oshuawei.com, port: 443, type: http, username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b, tls: true}
+  - {name: 🇲🇾 马来西亚 088, server: ae4bd7fa-t9zts0-tb592v-4lg6.my.oshuawei.com, port: 31233, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 542, server: nnnmjk.www890604.dpdns.org, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: nnnmjk.www890604.dpdns.org, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: nnnmjk.www890604.dpdns.org}}, udp: true}
+  - {name: 🇺🇸 美国 548, server: bbbnmjki.932.pp.ua, port: 80, type: vmess, uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: bbbnmjki.932.pp.ua, network: ws, ws-opts: {path: /t1UV4HSrzbWGmJtbBhmKb8nOkg, headers: {Host: bbbnmjki.932.pp.ua}}, udp: true}
+  - {name: 🇭🇰 香港 098, server: vip2.kaixincloud.top, port: 443, type: vless, uuid: 1e823993-86ac-3ead-89b5-227e73825fdb, tls: true, servername: dabaif0.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /db1024faebdb62e0, headers: {Host: dabaif0.webn.cc}}, udp: true}
+  - {name: 🇯🇵 日本 115, server: 831046fe-t9zts0-tcmtfl-1qudp.cm4.oshuawei.com, port: 27233, type: http, username: 99129cef-f705-11ee-ada6-f23c91cfbbc9, password: 99129cef-f705-11ee-ada6-f23c91cfbbc9, tls: true}
+  - {name: 🇹🇼 台湾家宽 04, server: 4-nnrflusy.mix.dexiansheng.com, port: 4444, type: http, username: walless, password: 34ddff9e-049d-444d-8bee-ae45928019ef, tls: true}
+  - {name: 🇮🇩 印度尼西亚 006, server: de729dd4-t9zts0-thv9l4-1jbj0.id.oshuawei.com, port: 32233, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 372, server: d4d3d1e6-ta1og0-tlpfci-1jdha.jp.oshuawei.com, port: 443, type: http, username: de629d50-1711-11ed-bd7c-f23c913c8d2b, password: de629d50-1711-11ed-bd7c-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印度尼西亚 113, server: f2de9b63-t9zts0-tgr32b-wj6v.id.oshuawei.com, port: 32233, type: http, username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 703, server: 0aafb652-t9zts0-tgzvop-hns7.se.oshuawei.com, port: 443, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇯🇵 日本 199, server: 154.31.114.125, port: 443, type: vless, uuid: c9907454-e980-407b-a024-0e09787b056f, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾 16, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 342b4885-c2a6-44c7-abc9-5ea62bf831fd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾家宽 01, server: freea.glyphara.com, port: 30201, type: vless, uuid: 05ee1ee1-2442-43ad-b1f3-bb2963937d91, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ, short-id: "c1e12817" }, servername: lol.secure.dyn.riotcdn.net, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇩🇪 德国 011, server: 5.178.110.39, port: 2053, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
+  - {name: 🇹🇼 台湾 04, server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl, port: 26005, type: trojan, password: e150dee0-e7e7-4f77-afa7-3b3df5dbb018, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇲🇾 马来西亚 075, server: ca7f573d-t9zts0-thiwul-1gcq2.my.oshuawei.com, port: 31233, type: http, username: 759bf004-6137-11ec-bd7c-f23c913c8d2b, password: 759bf004-6137-11ec-bd7c-f23c913c8d2b, tls: true}
+  - {name: 🇲🇾 马来西亚 007, server: 86bbff47-ta1og0-ta2rg6-amya.my.oshuawei.com, port: 31233, type: http, username: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, tls: true}
+  - {name: 🇮🇩 印度尼西亚 083, server: bde2c337-ta1og0-thiwul-1gcq2.id.oshuawei.com, port: 32233, type: http, username: 759bf004-6137-11ec-bd7c-f23c913c8d2b, password: 759bf004-6137-11ec-bd7c-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印度尼西亚 012, server: 4811f7e5-t9zts0-tubliy-1la7v.id.oshuawei.com, port: 32233, type: http, username: 460749c2-bcef-11ee-89fc-f23c913c8d2b, password: 460749c2-bcef-11ee-89fc-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印度尼西亚 105, server: 4bd8d23d-ta1og0-tcp4th-1c4g6.id.oshuawei.com, port: 32233, type: http, username: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, password: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, tls: true}
+  - {name: 🇰🇷 韩国家宽 03, server: 218.38.103.150, port: 56223, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 🇮🇩 印度尼西亚 120, server: c248cfcf-t9zts0-td1l1t-1s824.id.oshuawei.com, port: 32233, type: http, username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, tls: true}
+  - {name: 🇫🇷 法国 094, server: 2f1c376d-t9zts0-thv9l4-1jbj0.fr.oshuawei.com, port: 443, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
+  - {name: 🇲🇾 马来西亚 072, server: 05c364a3-ta1og0-taja66-1t926.my.oshuawei.com, port: 31233, type: http, username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 303, server: 495c8a84-ta1og0-taxf6m-ieln.sj.oshuawei.com, port: 443, type: http, username: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 239, server: d203c31a-t9zts0-tqruo0-1pqhp.sj.oshuawei.com, port: 443, type: http, username: b02327ac-a49a-11ef-a673-f23c913c8d2b, password: b02327ac-a49a-11ef-a673-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 006, server: 5a849342-t9zts0-tm3dx0-1r9dt.cu.oshuawei.com, port: 15229, type: http, username: de003c72-0157-11ef-86da-f23c91cfbbc9, password: de003c72-0157-11ef-86da-f23c91cfbbc9, tls: true}
+  - {name: 🇯🇵 日本 191, server: f8acbf2d-t9zts0-tc67m2-1tjc4.cm4.oshuawei.com, port: 27233, type: http, username: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 675, server: e2a4cdb5-t9zts0-tbck4p-mv7m.sjc.oshuawei.com, port: 443, type: http, username: 94d40708-8273-11ea-8fc9-f23c913c8d2b, password: 94d40708-8273-11ea-8fc9-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 444, server: 27cf45f4-t9zts0-ta2rg6-amya.sjc.oshuawei.com, port: 443, type: http, username: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 119, server: 06f0a483-t9zts0-tcr22d-1rsuw.se.oshuawei.com, port: 443, type: http, username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 343, server: bbbvgty.191266.xyz, port: 80, type: vmess, uuid: 98b419ef-83a2-4d1b-a23d-566b7f24477b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: bbBvGtY.191266.xYZ, network: ws, ws-opts: {path: /Iu415Fpf5REYxWLpTGA5AqzZ2Mj, headers: {Host: BbbVGtY.191266.xyZ}}, udp: true}
+  - {name: 🇸🇬 新加坡 020, server: ad9a558e-t9zts0-tcr22d-1rsuw.sg.oshuawei.com, port: 443, type: http, username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b, tls: true}
+  - {name: 🇩🇪 德国 039, server: ca1fde11-ta1og0-thv9l4-1jbj0.de.oshuawei.com, port: 443, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
+  - {name: 🇰🇷 韩国 056, server: df0d0a34-t9zts0-tb3p3s-lj7z.kr.oshuawei.com, port: 31433, type: http, username: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, tls: true}
+  - {name: 🇬🇧 英国 139, server: 6a7d0c35-t9zts0-taksay-1tcuf.uk.oshuawei.com, port: 443, type: http, username: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, tls: true}
+  - {name: 🇩🇪 德国 033, server: eabf4452-ta1og0-tc59t3-81nv.de.oshuawei.com, port: 443, type: http, username: 47e91fb6-25b8-df52-bc18-3cdc8548192f, password: 47e91fb6-25b8-df52-bc18-3cdc8548192f, tls: true}
+  - {name: 🇸🇬 新加坡 139, server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl, port: 26010, type: trojan, password: e150dee0-e7e7-4f77-afa7-3b3df5dbb018, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 309, server: 09035c2e-ta1og0-tb016b-1m7l4.se.oshuawei.com, port: 443, type: http, username: bd515574-3b10-11ee-ac14-f23c9164ca5d, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, tls: true}
+  - {name: 🇸🇬 新加坡 138, server: jzgz.tcity8.monster, port: 22231, type: vmess, uuid: 09e0fb4f-9d55-4e02-86a2-4552f541d79c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚 023, server: c087c60f-t9zts0-ta6lxc-jjv2.my.oshuawei.com, port: 31233, type: http, username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f, tls: true}
+  - {name: 🇭🇰 香港家宽 046, server: 44e81c30-t9zts0-tc4puo-m0b9.cm4.oshuawei.com, port: 5228, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇹🇼 台湾 14, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 60d9fa45-2e2d-4787-b82a-d87615bcb591, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 258, server: 1a576d5f-ta1og0-taj9mo-1tco3.se.oshuawei.com, port: 443, type: http, username: e29de954-ea01-11ef-a271-f23c91cfbbc9, password: e29de954-ea01-11ef-a271-f23c91cfbbc9, tls: true}
+  - {name: 🇮🇩 印度尼西亚 103, server: 83d3e62e-ta1og0-taz53d-1j0y6.id.oshuawei.com, port: 32233, type: http, username: 1cce7df2-251c-11ee-9409-f23c9164ca5d, password: 1cce7df2-251c-11ee-9409-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 285, server: 6e974e45-ta1og0-tbac1z-1j3zm.cu.oshuawei.com, port: 15229, type: http, username: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, password: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, tls: true}
+  - {name: 🇸🇬 新加坡 101, server: 624fc9e5-ta1og0-tc2x42-n09f.sg.oshuawei.com, port: 443, type: http, username: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 526, server: 54e9122d-ta1og0-tb016b-1m7l4.jp.oshuawei.com, port: 443, type: http, username: bd515574-3b10-11ee-ac14-f23c9164ca5d, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 253, server: 965b2995-t9zts0-tbnucr-1thfv.sj.oshuawei.com, port: 443, type: http, username: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 071, server: 8ba3b012-t9zts0-tm3dx0-1r9dt.sj.oshuawei.com, port: 443, type: http, username: de003c72-0157-11ef-86da-f23c91cfbbc9, password: de003c72-0157-11ef-86da-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 084, server: cb6ba6c6-ta1og0-tgr32b-wj6v.sj.oshuawei.com, port: 443, type: http, username: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, password: 847c03b2-0a9d-11eb-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇭🇰 香港 067, server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl, port: 26001, type: trojan, password: dc09a397-6293-49ee-8778-c20cb3ed3a13, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 082, server: e0ae9099-t9zts0-ta00rd-1o8ak.kr.oshuawei.com, port: 31433, type: http, username: 8bb68d04-6973-11ee-b518-f23c9164ca5d, password: 8bb68d04-6973-11ee-b518-f23c9164ca5d, tls: true}
+  - {name: 🇹🇼 台湾 08, server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl, port: 26005, type: trojan, password: dc09a397-6293-49ee-8778-c20cb3ed3a13, sni: www.bilibili.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇭 泰国商宽 051, server: 0f60a190-ta1og0-tb4whp-zn8y.id.oshuawei.com, port: 32232, type: http, username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, tls: true}
+  - {name: 🇫🇷 法国 069, server: 5678a83b-ta1og0-tg8syu-1nyy5.fr.oshuawei.com, port: 443, type: http, username: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, password: 8f7cb770-1305-11ee-b107-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 442, server: 2c6c272c-ta1og0-tcp4th-1c4g6.cu.oshuawei.com, port: 15229, type: http, username: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, password: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, tls: true}
+  - {name: 🇩🇪 德国 097, server: 112c0657-ta1og0-tdh9w7-ahsb.de.oshuawei.com, port: 443, type: http, username: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d, tls: true}
+  - {name: 🇭🇰 香港 009, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: eb18d147-248b-4e13-8ebf-52cf9b82f822, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 192, server: 4-njt9ls3db.mix.dexiansheng.com, port: 4441, type: http, username: walless, password: 34ddff9e-049d-444d-8bee-ae45928019ef, tls: true}
+  - {name: 🇺🇸 美国 108, server: 85289a16-t9zts0-th9kx9-1os43.se.oshuawei.com, port: 443, type: http, username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d, tls: true}
+  - {name: 🇩🇪 德国 017, server: 31b6e1ae-t9zts0-tiaexf-ufc0.de.oshuawei.com, port: 443, type: http, username: 22308988-8548-11ea-a22e-f23c91cfbbc9, password: 22308988-8548-11ea-a22e-f23c91cfbbc9, tls: true}
+  - {name: 🇲🇾 马来西亚 105, server: f146d844-ta1og0-thv9l4-1jbj0.my.oshuawei.com, port: 31233, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
+  - {name: 🇰🇷 韩国 088, server: a97b12fe-t9zts0-tkhmfr-1jm8i.kr.oshuawei.com, port: 31433, type: http, username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9, tls: true}
+  - {name: 🇺🇸 美国 041, server: d896e3b1-ta1og0-taj9mo-1tco3.cu.oshuawei.com, port: 15229, type: http, username: e29de954-ea01-11ef-a271-f23c91cfbbc9, password: e29de954-ea01-11ef-a271-f23c91cfbbc9, tls: true}
+  - {name: 🇬🇧 英国 119, server: b9dd4cc0-t9zts0-tb5rbt-1kcpe.uk.oshuawei.com, port: 443, type: http, username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9, tls: true}
+  - {name: 🇸🇬 新加坡 048, server: e818166e-ta1og0-taja66-1t926.cm4.oshuawei.com, port: 17235, type: http, username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, tls: true}
+  - {name: 🇹🇭 泰国商宽 011, server: b5b85a50-t9zts0-tcp4th-1c4g6.id.oshuawei.com, port: 32232, type: http, username: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, password: 676c67c6-5e73-11ee-9a79-f23c9164ca5d, tls: true}
+  - {name: 🇯🇵 日本 037, server: 2bcfb34b-ta1og0-tbpkla-1otc2.cm4.oshuawei.com, port: 27233, type: http, username: 0114339c-488d-11ee-8792-f23c9164ca5d, password: 0114339c-488d-11ee-8792-f23c9164ca5d, tls: true}
+  - {name: 🇹🇭 泰国商宽 093, server: 9fd9ca3b-ta1og0-taja66-1t926.id.oshuawei.com, port: 32232, type: http, username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d, tls: true}
+  - {name: 🇸🇬 新加坡 182, server: b7a4b7a4-t9zts0-tb016b-1m7l4.sg.oshuawei.com, port: 443, type: http, username: bd515574-3b10-11ee-ac14-f23c9164ca5d, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, tls: true}
+  - {name: 🇻🇳 越南商宽 24, server: 103.186.154.186, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇰🇷 韩国 068, server: 1ca5b077-ta1og0-tb592v-4lg6.kr.oshuawei.com, port: 31433, type: http, username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d, tls: true}
+  - {name: 🇲🇾 马来西亚 113, server: 8965408d-t9zts0-tgzvop-hns7.my.oshuawei.com, port: 31233, type: http, username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 266, server: 9dca7f95-t9zts0-thv9l4-1jbj0.cu.oshuawei.com, port: 15229, type: http, username: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9, tls: true}
+  - {name: 🇮🇩 印度尼西亚 094, server: 119a7297-ta1og0-tphxte-1h5u7.id.oshuawei.com, port: 32233, type: http, username: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, password: e3fdbd22-8c17-11ee-ace4-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港家宽 114, server: f675ea3e-ta1og0-taz53d-1j0y6.cm4.oshuawei.com, port: 5228, type: http, username: 1cce7df2-251c-11ee-9409-f23c9164ca5d, password: 1cce7df2-251c-11ee-9409-f23c9164ca5d, tls: true}
+  - {name: 🇯🇵 日本 018, server: 4-nebmrwks.mix.dexiansheng.com, port: 4436, type: http, username: walless, password: 34ddff9e-049d-444d-8bee-ae45928019ef, tls: true}
+  - {name: 🇬🇧 英国 111, server: 91da93c5-t9zts0-trftb1-1psmw.uk.oshuawei.com, port: 443, type: http, username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, password: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d, tls: true}
+  - {name: 🇺🇸 美国 047, server: ba22db1e-t9zts0-teu3io-1t4wg.se.oshuawei.com, port: 443, type: http, username: 1b13e20c-e778-11ef-907f-f23c913c8d2b, password: 1b13e20c-e778-11ef-907f-f23c913c8d2b, tls: true}
+  - {name: 🇩🇪 德国 103, server: 9a2cf3d3-t9zts0-tb3p3s-lj7z.de.oshuawei.com, port: 443, type: http, username: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b, tls: true}
+  - {name: 🇮🇩 印度尼西亚 031, server: 6fcb6e1d-t9zts0-tc4puo-m0b9.id.oshuawei.com, port: 32233, type: http, username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b, tls: true}
+  - {name: 🇭🇰 香港家宽 148, server: 9babb750-ta1og0-tcr97d-2b2n.cm4.oshuawei.com, port: 5228, type: http, username: fcd39788-ca23-11ed-86e2-f23c913c8d2b, password: fcd39788-ca23-11ed-86e2-f23c913c8d2b, tls: true}
+  - {name: 🇺🇸 美国 439, server: 8849cc35-ta1og0-tgplbc-hkb8.se.oshuawei.com, port: 443, type: http, username: 21a70fd2-c69c-11eb-8673-f23c9164ca5d, password: 21a70fd2-c69c-11eb-8673-f23c9164ca5d, tls: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -163,312 +163,312 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -476,156 +476,156 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -645,178 +645,184 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇭🇰 香港家宽 034
-      - 🇭🇰 香港 134
-      - 🇭🇰 香港 039
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇭🇰 香港家宽 103
-      - 🇭🇰 香港 263
-      - 🇭🇰 香港家宽 064
-      - 🇭🇰 香港 275
-      - 🇭🇰 香港家宽 157
-      - 🇭🇰 香港家宽 163
       - 🇭🇰 香港家宽 178
-      - 🇭🇰 香港 009
-      - 🇭🇰 香港家宽 024
+      - 🇭🇰 香港 065
+      - 🇭🇰 香港家宽 035
+      - 🇭🇰 香港家宽 140
+      - 🇭🇰 香港家宽 033
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇭🇰 香港 032
+      - 🇭🇰 香港家宽 126
+      - 🇭🇰 香港 093
+      - 🇭🇰 香港家宽 131
+      - 🇭🇰 香港 098
+      - 🇹🇼 台湾家宽 04
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇹🇼 台湾 04
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇭🇰 香港 067
+      - 🇹🇼 台湾 08
+      - 🇭🇰 香港 009
+      - 🇭🇰 香港家宽 114
+      - 🇭🇰 香港家宽 148
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -824,312 +830,312 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1137,156 +1143,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1303,156 +1309,156 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇸🇬 新加坡 066
-      - 🇮🇩 印度尼西亚 042
-      - 🇰🇷 韩国 091
-      - 🇺🇸 美国 952
-      - 🇯🇵 日本 153
-      - 🇭🇰 香港 219
-      - 🇭🇰 香港 143
-      - 🇸🇬 新加坡 097
-      - 🇲🇾 马来西亚 001
-      - 🇭🇰 香港家宽 034
-      - 🇺🇸 美国 714
-      - 🇹🇭 泰国商宽 159
-      - 🇯🇵 日本 056
-      - 🇲🇾 马来西亚 154
-      - 🇸🇬 新加坡 052
-      - 🇮🇩 印度尼西亚 128
-      - 🇭🇰 香港 134
-      - 🇺🇸 美国 185
-      - 🇯🇵 日本 165
-      - 🇰🇷 韩国 059
-      - 🇹🇭 泰国商宽 094
-      - 🇭🇰 香港 039
-      - 🇫🇷 法国 021
-      - 🇯🇵 日本 026
-      - 🇮🇩 印度尼西亚 141
-      - 🇸🇬 新加坡 084
-      - 🇰🇷 韩国 047
-      - 🇰🇷 韩国 073
-      - 🇸🇬 新加坡 193
-      - 🇲🇾 马来西亚 126
-      - 🇬🇧 英国 179
-      - 🇫🇷 法国 126
-      - 🇯🇵 日本 179
-      - 🇺🇸 美国 740
-      - 🇺🇸 美国 474
-      - 🇮🇩 印度尼西亚 052
-      - 🇹🇭 泰国商宽 169
-      - 🇭🇰 香港 002
-      - 🇹🇼 台湾家宽 07
-      - 🇺🇸 美国 751
-      - 🇺🇸 美国 519
-      - 🇺🇸 美国 683
-      - 🇯🇵 日本 194
-      - 🇸🇬 新加坡 134
-      - 🇯🇵 日本 068
-      - 🇬🇧 英国 038
-      - 🇺🇸 美国 295
-      - 🇭🇰 香港家宽 103
-      - 🇺🇸 美国 392
-      - 🇯🇵 日本 182
-      - 🇸🇬 新加坡 154
-      - 🇯🇵 日本 051
-      - 🇺🇸 美国 855
-      - 🇸🇬 新加坡 335
-      - 🇺🇸 美国 342
-      - 🇺🇸 美国 193
-      - 🇮🇩 印度尼西亚 026
-      - 🇯🇵 日本 158
-      - 🇺🇸 美国 543
-      - 🇮🇩 印度尼西亚 133
-      - 🇺🇸 美国 352
-      - 🇲🇾 马来西亚 122
-      - 🇬🇧 英国 022
-      - 🇭🇰 香港 263
-      - 🇫🇷 法国 110
-      - 🇲🇾 马来西亚 155
-      - 🇺🇸 美国 453
-      - 🇺🇸 美国 434
-      - 🇹🇭 泰国商宽 139
-      - 🇰🇷 韩国 185
-      - 🇭🇰 香港家宽 064
-      - 🇸🇬 新加坡 300
-      - 🇺🇸 美国 316
-      - 🇭🇰 香港 275
-      - 🇹🇭 泰国商宽 005
-      - 🇰🇷 韩国 012
-      - 🇰🇷 韩国 060
-      - 🇺🇸 美国 132
-      - 🇺🇸 美国 435
-      - 🇺🇸 美国 349
-      - 🇺🇸 美国 513
-      - 🇺🇸 美国 321
-      - 🇺🇸 美国 301
-      - 🇹🇭 泰国商宽 014
-      - 🇺🇸 美国 672
-      - 🇩🇪 德国 101
-      - 🇯🇵 日本 162
-      - 🇸🇬 新加坡 173
-      - 🇺🇸 美国 208
-      - 🇻🇳 越南商宽 31
-      - 🇯🇵 日本 079
-      - 🇫🇷 法国 156
-      - 🇲🇾 马来西亚 110
-      - 🇲🇾 马来西亚 099
-      - 🇺🇸 美国 385
-      - 🇭🇰 香港家宽 157
-      - 🇫🇷 法国 076
-      - 🇩🇪 德国 193
-      - 🇬🇧 英国 150
-      - 🇺🇸 美国 689
-      - 🇫🇷 法国 034
-      - 🇩🇪 德国 213
-      - 🇸🇬 新加坡 314
-      - 🇺🇸 美国 075
-      - 🇩🇪 德国 157
-      - 🇭🇰 香港家宽 163
-      - 🇹🇭 泰国商宽 158
-      - 🇺🇸 美国 331
-      - 🇯🇵 日本 103
-      - 🇸🇬 新加坡 270
-      - 🇯🇵 日本 064
-      - 🇺🇸 美国 868
-      - 🇺🇸 美国 819
       - 🇭🇰 香港家宽 178
-      - 🇺🇸 美国 498
-      - 🇫🇷 法国 111
-      - 🇺🇸 美国 421
-      - 🇯🇵 日本家宽 06
-      - 🇹🇭 泰国商宽 151
-      - 🇸🇬 新加坡 182
-      - 🇻🇳 越南商宽 01
-      - 🇭🇰 香港 009
-      - 🇺🇸 美国 540
-      - 🇺🇸 美国 246
-      - 🇸🇬 新加坡 236
-      - 🇳🇱 荷兰 06
-      - 🇮🇩 印度尼西亚 113
-      - 🇰🇷 韩国 003
-      - 🇺🇸 美国 831
-      - 🇰🇷 韩国 159
-      - 🇺🇸 美国 727
-      - 🇺🇸 美国 303
-      - 🇺🇸 美国 626
-      - 🇺🇸 美国 070
-      - 🇭🇰 香港家宽 024
-      - 🇺🇸 美国 473
-      - 🇺🇸 美国 358
+      - 🇺🇸 美国 356
+      - 🇹🇭 泰国商宽 111
+      - 🇸🇬 新加坡 072
+      - 🇹🇭 泰国商宽 035
+      - 🇩🇪 德国 056
+      - 🇺🇸 美国 213
+      - 🇺🇸 美国 580
+      - 🇺🇸 美国 514
+      - 🇬🇧 英国 048
+      - 🇺🇸 美国 145
+      - 🇭🇰 香港 065
+      - 🇺🇸 美国 169
+      - 🇯🇵 日本 015
+      - 🇸🇬 新加坡 157
+      - 🇩🇪 德国 028
+      - 🇭🇰 香港家宽 035
+      - 🇮🇩 印度尼西亚 046
+      - 🇮🇩 印度尼西亚 059
+      - 🇭🇰 香港家宽 140
+      - 🇰🇷 韩国家宽 06
+      - 🇭🇰 香港家宽 033
+      - 🇸🇬 新加坡 129
+      - 🇭🇰 香港家宽 069
+      - 🇭🇰 香港家宽 099
+      - 🇹🇭 泰国商宽 112
+      - 🇸🇬 新加坡 012
+      - 🇹🇭 泰国商宽 059
+      - 🇺🇸 美国 463
+      - 🇸🇬 新加坡 170
+      - 🇮🇩 印度尼西亚 011
+      - 🇺🇸 美国 040
+      - 🇬🇧 英国 078
+      - 🇮🇩 印度尼西亚 060
+      - 🇭🇰 香港家宽 014
       - 🇭🇰 香港 075
-      - 🇺🇸 美国 673
-      - 🇵🇱 波兰 02
-      - 🇬🇧 英国 037
-      - 🇸🇬 新加坡 125
-      - 🇺🇸 美国 334
-      - 🇯🇵 日本 123
-      - 🇩🇪 德国 053
-      - 🇫🇷 法国 069
+      - 🇭🇰 香港家宽 126
+      - 🇰🇷 韩国 019
+      - 🇸🇬 新加坡 168
+      - 🇫🇷 法国 057
+      - 🇹🇭 泰国商宽 003
+      - 🇺🇸 美国 654
+      - 🇺🇸 美国 127
+      - 🇩🇪 德国 133
+      - 🇭🇰 香港 093
+      - 🇬🇧 英国 088
       - 🇺🇸 美国 002
-      - 🇭🇰 香港 032
-      - 🇫🇷 法国 160
-      - 🇰🇷 韩国家宽 09
+      - 🇯🇵 日本 083
+      - 🇯🇵 日本 131
+      - 🇰🇷 韩国 094
+      - 🇺🇸 美国 135
+      - 🇸🇬 新加坡 128
+      - 🇮🇩 印度尼西亚 014
+      - 🇮🇩 印度尼西亚 092
+      - 🇺🇸 美国 645
+      - 🇲🇾 马来西亚 049
+      - 🇬🇧 英国 025
+      - 🇫🇷 法国 037
+      - 🇭🇰 香港家宽 131
+      - 🇲🇾 马来西亚 086
+      - 🇩🇪 德国 060
+      - 🇹🇭 泰国商宽 014
+      - 🇺🇸 美国 456
+      - 🇸🇬 新加坡 039
+      - 🇬🇧 英国 133
+      - 🇸🇬 新加坡 064
+      - 🇲🇾 马来西亚 088
+      - 🇺🇸 美国 542
+      - 🇺🇸 美国 548
+      - 🇭🇰 香港 098
+      - 🇯🇵 日本 115
+      - 🇹🇼 台湾家宽 04
+      - 🇮🇩 印度尼西亚 006
+      - 🇺🇸 美国 372
+      - 🇮🇩 印度尼西亚 113
+      - 🇺🇸 美国 703
+      - 🇯🇵 日本 199
+      - 🇹🇼 台湾 16
+      - 🇹🇼 台湾家宽 01
+      - 🇩🇪 德国 011
+      - 🇹🇼 台湾 04
+      - 🇲🇾 马来西亚 075
+      - 🇲🇾 马来西亚 007
+      - 🇮🇩 印度尼西亚 083
+      - 🇮🇩 印度尼西亚 012
+      - 🇮🇩 印度尼西亚 105
+      - 🇰🇷 韩国家宽 03
+      - 🇮🇩 印度尼西亚 120
+      - 🇫🇷 法国 094
+      - 🇲🇾 马来西亚 072
+      - 🇺🇸 美国 303
+      - 🇺🇸 美国 239
+      - 🇺🇸 美国 006
+      - 🇯🇵 日本 191
+      - 🇺🇸 美国 675
+      - 🇺🇸 美国 444
+      - 🇺🇸 美国 119
+      - 🇺🇸 美国 343
+      - 🇸🇬 新加坡 020
+      - 🇩🇪 德国 039
+      - 🇰🇷 韩国 056
+      - 🇬🇧 英国 139
+      - 🇩🇪 德国 033
+      - 🇸🇬 新加坡 139
+      - 🇺🇸 美国 309
+      - 🇸🇬 新加坡 138
+      - 🇲🇾 马来西亚 023
+      - 🇭🇰 香港家宽 046
+      - 🇹🇼 台湾 14
+      - 🇺🇸 美国 258
+      - 🇮🇩 印度尼西亚 103
+      - 🇺🇸 美国 285
+      - 🇸🇬 新加坡 101
+      - 🇺🇸 美国 526
+      - 🇺🇸 美国 253
+      - 🇺🇸 美国 071
+      - 🇺🇸 美国 084
+      - 🇭🇰 香港 067
+      - 🇰🇷 韩国 082
+      - 🇹🇼 台湾 08
+      - 🇹🇭 泰国商宽 051
+      - 🇫🇷 法国 069
+      - 🇺🇸 美国 442
+      - 🇩🇪 德国 097
+      - 🇭🇰 香港 009
+      - 🇺🇸 美国 192
+      - 🇺🇸 美国 108
+      - 🇩🇪 德国 017
+      - 🇲🇾 马来西亚 105
+      - 🇰🇷 韩国 088
+      - 🇺🇸 美国 041
+      - 🇬🇧 英国 119
+      - 🇸🇬 新加坡 048
+      - 🇹🇭 泰国商宽 011
+      - 🇯🇵 日本 037
+      - 🇹🇭 泰国商宽 093
+      - 🇸🇬 新加坡 182
+      - 🇻🇳 越南商宽 24
+      - 🇰🇷 韩国 068
+      - 🇲🇾 马来西亚 113
+      - 🇺🇸 美国 266
+      - 🇮🇩 印度尼西亚 094
+      - 🇭🇰 香港家宽 114
+      - 🇯🇵 日本 018
+      - 🇬🇧 英国 111
+      - 🇺🇸 美国 047
+      - 🇩🇪 德国 103
+      - 🇮🇩 印度尼西亚 031
+      - 🇭🇰 香港家宽 148
+      - 🇺🇸 美国 439
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -5,14 +5,14 @@
 - **Token**: u0bt57u81cui26g1vc
 - **获取格式**: Clash + V2Ray
 - **列表模式**: false
-- **成功数量**: 1 个格式
-- **失败数量**: 1 个格式
-- **总文件大小**: 567545 字节
+- **成功数量**: 2 个格式
+- **失败数量**: 0 个格式
+- **总文件大小**: 599549 字节
 
 ## 🔗 API信息
 - **基础URL**: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe
 - **GitHub Issue**: https://github.com/wzdnzd/aggregator/issues/91
-- **生成文件**:  content/clash_config.txt
+- **生成文件**:  content/clash_config.txt content/v2ray_config.txt
 - **节点数量**: 每次随机返回100个节点
 - **更新频率**: 每4小时自动更新
 

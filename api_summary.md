@@ -2,12 +2,12 @@
 
 ## 📋 基本信息
 - **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')
-- **Token**: u0bt57u81cui26g1vc
+- **Token**: m4neyksfl4ms8y0b616
 - **获取格式**: Clash + V2Ray
 - **列表模式**: false
 - **成功数量**: 2 个格式
 - **失败数量**: 0 个格式
-- **总文件大小**: 581603 字节
+- **总文件大小**: 581106 字节
 
 ## 🔗 API信息
 - **基础URL**: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe

@@ -7,10 +7,10 @@
 - **列表模式**: false
 - **成功数量**: 2 个格式
 - **失败数量**: 0 个格式
-- **总文件大小**: 610007 字节
+- **总文件大小**: 180 字节
 
 ## 🔗 API信息
-- **基础URL**: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe
+- **基础URL**: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe
 - **GitHub Issue**: https://github.com/wzdnzd/aggregator/issues/91
 - **生成文件**:  content/clash_config.txt content/v2ray_config.txt
 - **节点数量**: 每次随机返回100个节点

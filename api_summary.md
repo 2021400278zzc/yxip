@@ -2,7 +2,7 @@
 
 ## 📋 基本信息
 - **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')
-- **Token**: m4neyksfl4ms8y0b616
+- **Token**: 5ux6j08y3b2wefhdlnt3
 - **获取格式**: Clash + V2Ray
 - **列表模式**: false
 - **成功数量**: 2 个格式

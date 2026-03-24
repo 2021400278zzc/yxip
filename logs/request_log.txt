@@ -1,20 +1,20 @@
 ==================== API批量请求信息 ====================
-时间: 2026-03-22 08:35:44 UTC
-API地址: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe
-Token: 5ux6j08y3b2wefhdlnt3
+时间: 2026-03-24 17:00:05 UTC
+API地址: https://raoku-pm.hf.space/api/v1/subscribe
+Token: 75kg8oxf4z16rwnf58mm
 目标格式: clash v2ray
 列表模式: false
 ========================================================
 
 --- clash 格式 ---
-完整URL: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=5ux6j08y3b2wefhdlnt3&target=clash&list=false
+完整URL: https://raoku-pm.hf.space/api/v1/subscribe?token=75kg8oxf4z16rwnf58mm&target=clash&list=false
 HTTP状态码: 200
 文件大小: 90 字节
 ✅ 请求成功
 文件保存: content/clash_config.txt
 
 --- v2ray 格式 ---
-完整URL: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=5ux6j08y3b2wefhdlnt3&target=v2ray&list=false
+完整URL: https://raoku-pm.hf.space/api/v1/subscribe?token=75kg8oxf4z16rwnf58mm&target=v2ray&list=false
 HTTP状态码: 200
 文件大小: 90 字节
 ✅ 请求成功

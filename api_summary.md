@@ -2,7 +2,7 @@
 
 ## 📋 基本信息
 - **更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')
-- **Token**: 5ux6j08y3b2wefhdlnt3
+- **Token**: 75kg8oxf4z16rwnf58mm
 - **获取格式**: Clash + V2Ray
 - **列表模式**: false
 - **成功数量**: 2 个格式
@@ -10,7 +10,7 @@
 - **总文件大小**: 180 字节
 
 ## 🔗 API信息
-- **基础URL**: https://proxy-manager-ggeu.onrender.com/api/v1/subscribe
+- **基础URL**: https://raoku-pm.hf.space/api/v1/subscribe
 - **GitHub Issue**: https://github.com/wzdnzd/aggregator/issues/91
 - **生成文件**:  content/clash_config.txt content/v2ray_config.txt
 - **节点数量**: 每次随机返回100个节点

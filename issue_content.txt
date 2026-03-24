@@ -1,3 +1,9 @@
+> **最新通知📢：订阅服务已重新迁移至 `huggingface`。如果该账号再次被封（之前在 `huggingface` 上部署过并且账号被封）将彻底停止服务**
+
+> ~~**通知📢：[Render](https://render.com) 账号也被封了🥹🥹🥹，从今天起暂停服务。本服务用到的所有代码均已开源，有需要的朋友可自行部署**~~
+
+<img width="1110" height="273" alt="Image" src="https://github.com/user-attachments/assets/05b57051-06ff-43f3-a1c6-f8aefb3ce6d8" />
+
 需遵循以下条款后方可使用，谢谢配合：
 + 合法使用：请遵循您所在国家和地区的法律法规。
 + 禁止非法活动：仅供科研、教育使用，不得用于任何非法用途，如网络攻击或传播恶意软件。
@@ -17,13 +23,13 @@
 
 为了解决上述问题，趁着周末写了一个管理系统，每次获取节点时随机挑选一部分节点（当前配置：100个）返回。
 
-**在线服务接口地址**：https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=xxx&target=xxx&list=xxx  
+**在线服务接口地址**：https://raoku-pm.hf.space/api/v1/subscribe?token=xxx&target=xxx&list=xxx  
 > **📢📢📢：订阅服务流量有限，请轻点刷，否则流量耗尽只能停机🤦‍♂️🤦‍♂️🤦‍♂️**
 
 **参数列表：**
 |  参数名  |  用途  |  是否必须  |  取值范围  |  默认值  |  当前配置  |  备注  |
 |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |
-|  token  |  鉴权  |  是  |  -  |  -  |  <details><summary>点击查看最新密钥</summary>5ux6j08y3b2wefhdlnt3</details>
+|  token  |  鉴权  |  是  |  -  |  -  |  <details><summary>点击查看最新密钥</summary>f1zk66yqufbze408132k7635</details>
   |  视情况更新  |
 |  target  |  标识客户端类型  |  否  |  `clash`、`v2ray`、`singbox`、`surge`、`loon`、`quanx`、`surfboard`等  |  从请求头`User-Agent`中获取，获取不到则置为`v2ray`  |  `clash`、`v2ray`、`singbox`、`surge`、`loon`、`quanx`  |  如果客户端为`Clash`类，推荐使用 `mihomo` 内核  |
 |  list  |  是否包含规则  |  否  |  `true`、`false` 或者 `1`、`0`  |  `false`  |  -  |  `true` 或 `1` 时仅包含节点，否则包含节点和规则  |

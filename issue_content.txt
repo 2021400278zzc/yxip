@@ -15,7 +15,7 @@
 
 > **如更新失败请仔细检查 `token` 是否为最新**（为防止滥用，将在大范围分享时被重置）
 
-> 低调使用，**禁止大范围传播。实在要转发（载）请注明出处**
+> 低调使用，**禁止大范围传播（尤其是 `freeVPxxx` 的 TG 频道）。实在要转发（载）请注明出处**
 
 之前每个人获取到的都是全部的节点，会存在以下两个问题：
 1. 由于数量过于庞大，完成一遍测活所需时间太久，且客户端会占用大量内存
@@ -29,7 +29,7 @@
 **参数列表：**
 |  参数名  |  用途  |  是否必须  |  取值范围  |  默认值  |  当前配置  |  备注  |
 |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |
-|  token  |  鉴权  |  是  |  -  |  -  |  <details><summary>点击查看最新密钥</summary>8uak3-ue1idoujz*dy6ooumx</details>
+|  token  |  鉴权  |  是  |  -  |  -  |  <details><summary>点击查看最新密钥</summary>3nl!1kdbk=56u6k-x0il</details>
   |  视情况更新  |
 |  target  |  标识客户端类型  |  否  |  `clash`、`v2ray`、`singbox`、`surge`、`loon`、`quanx`、`surfboard`等  |  从请求头`User-Agent`中获取，获取不到则置为`v2ray`  |  `clash`、`v2ray`、`singbox`、`surge`、`loon`、`quanx`  |  如果客户端为`Clash`类，推荐使用 `mihomo` 内核  |
 |  list  |  是否包含规则  |  否  |  `true`、`false` 或者 `1`、`0`  |  `false`  |  -  |  `true` 或 `1` 时仅包含节点，否则包含节点和规则  |

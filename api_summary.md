@@ -10,7 +10,7 @@
 - **总文件大小**: 180 字节
 
 ## 🔗 API信息
-- **基础URL**: https://raoku-pm.hf.space/api/v1/subscribe
+- **基础URL**: https://bglyquhwuqaz.us-west-1.clawcloudrun.com/api/v1/subscribe
 - **GitHub Issue**: https://github.com/wzdnzd/aggregator/issues/91
 - **生成文件**:  content/clash_config.txt content/v2ray_config.txt
 - **节点数量**: 每次随机返回100个节点

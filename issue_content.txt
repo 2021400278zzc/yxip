@@ -23,13 +23,13 @@
 
 为了解决上述问题，趁着周末写了一个管理系统，每次获取节点时随机挑选一部分节点（当前配置：100个）返回。
 
-**在线服务接口地址**：https://raoku-pm.hf.space/api/v1/subscribe?token=xxx&target=xxx&list=xxx  
+**在线服务接口地址**：https://bglyquhwuqaz.us-west-1.clawcloudrun.com/api/v1/subscribe?token=xxx&target=xxx&list=xxx  
 > **📢📢📢：订阅服务流量有限，请轻点刷，否则流量耗尽只能停机🤦‍♂️🤦‍♂️🤦‍♂️**
 
 **参数列表：**
 |  参数名  |  用途  |  是否必须  |  取值范围  |  默认值  |  当前配置  |  备注  |
 |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |  ----  |
-|  token  |  鉴权  |  是  |  -  |  -  |  <details><summary>点击查看最新密钥</summary>3nl!1kdbk=56u6k-x0il</details>
+|  token  |  鉴权  |  是  |  -  |  -  |  <details><summary>点击查看最新密钥</summary>g6ra!bujhj9vx*gyw4b-l1yh</details>
   |  视情况更新  |
 |  target  |  标识客户端类型  |  否  |  `clash`、`v2ray`、`singbox`、`surge`、`loon`、`quanx`、`surfboard`等  |  从请求头`User-Agent`中获取，获取不到则置为`v2ray`  |  `clash`、`v2ray`、`singbox`、`surge`、`loon`、`quanx`  |  如果客户端为`Clash`类，推荐使用 `mihomo` 内核  |
 |  list  |  是否包含规则  |  否  |  `true`、`false` 或者 `1`、`0`  |  `false`  |  -  |  `true` 或 `1` 时仅包含节点，否则包含节点和规则  |
